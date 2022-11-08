@@ -1,0 +1,11 @@
+BurnStreamsAtRoads
+BurnStreamsAtRoads
+Hydrological Analysis
+hydrologicalanalysis
+Burns-in streams at the sites of road embankments
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#BurnStreamsAtRoads
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|streams|Input Vector Streams File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterFeatureSource|roads|Input Vector Roads File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|width|Road Embankment Width|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

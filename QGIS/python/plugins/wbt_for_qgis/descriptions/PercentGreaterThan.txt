@@ -1,0 +1,9 @@
+PercentGreaterThan
+PercentGreaterThan
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Calculates the percentage of a raster stack that have cell values greater than an input on a cell-by-cell basis
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#PercentGreaterThan
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterLayer|comparison|Input Comparison File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

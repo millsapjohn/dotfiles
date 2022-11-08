@@ -1,0 +1,13 @@
+CreateColourComposite
+CreateColourComposite
+Image Processing Tools
+imageprocessingtools
+Creates a colour-composite image from three bands of multispectral imagery
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#CreateColourComposite
+QgsProcessingParameterRasterLayer|red|Input Red Band Image File|None|False
+QgsProcessingParameterRasterLayer|green|Input Green Band Image File|None|False
+QgsProcessingParameterRasterLayer|blue|Input Blue Band Image File|None|False
+QgsProcessingParameterRasterLayer|opacity|Input Opacity Band Image File (Optional)|None|True
+QgsProcessingParameterBoolean|enhance|Perform balance contrast enhancement?|True|True
+QgsProcessingParameterBoolean|zeros|Treat zeros as nodata?|False|True
+QgsProcessingParameterRasterDestination|output|Output Colour Composite File|None|False

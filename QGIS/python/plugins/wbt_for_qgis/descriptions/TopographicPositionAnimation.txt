@@ -1,0 +1,16 @@
+TopographicPositionAnimation
+TopographicPositionAnimation
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool creates an animated GIF of multi-scale local topographic position (elevation deviation)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#TopographicPositionAnimation
+QgsProcessingParameterRasterLayer|input|Input Digital Elevation Model (DEM) Raster|None|False
+QgsProcessingParameterEnum|palette|Palette|bl_yl_rd;bl_w_rd;purple;gn_yl;pi_y_g;viridis|False|0|True
+QgsProcessingParameterNumber|min_scale|Minimum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|num_steps|Number of Steps|QgsProcessingParameterNumber.Integer|100|True|None|None
+QgsProcessingParameterNumber|step_nonlinearity|Step Nonlinearity|QgsProcessingParameterNumber.Double|1.5|True|None|None
+QgsProcessingParameterNumber|height|Image Height (in pixels)|QgsProcessingParameterNumber.Integer|600|True|None|None
+QgsProcessingParameterNumber|delay|Delay (in milliseconds)|QgsProcessingParameterNumber.Integer|250|True|None|None
+QgsProcessingParameterString|label|Label text (blank for none)|None|False|True
+QgsProcessingParameterBoolean|dev_max|Use DEVmax for topo position?|False|True
+QgsProcessingParameterFileDestination|output|Output File (*.html)|HTML files (*.html *.HTML)|None|False

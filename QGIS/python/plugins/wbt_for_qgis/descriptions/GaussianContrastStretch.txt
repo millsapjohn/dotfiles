@@ -1,0 +1,9 @@
+GaussianContrastStretch
+GaussianContrastStretch
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Performs a Gaussian contrast stretch on input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#GaussianContrastStretch
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|num_tones|Number of Tones|QgsProcessingParameterNumber.Integer|256|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

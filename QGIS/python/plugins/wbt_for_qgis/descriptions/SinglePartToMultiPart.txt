@@ -1,0 +1,9 @@
+SinglePartToMultiPart
+SinglePartToMultiPart
+Data Tools
+datatools
+Converts a vector file containing multi-part features into a vector containing only single-part features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#SinglePartToMultiPart
+QgsProcessingParameterFeatureSource|input|Input Line or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field|Grouping ID Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterVectorDestination|output|Output Line or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False

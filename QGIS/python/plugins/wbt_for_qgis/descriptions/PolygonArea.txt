@@ -1,0 +1,7 @@
+PolygonArea
+PolygonArea
+GIS Analysis
+gisanalysis
+Calculates the area of vector polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#PolygonArea
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

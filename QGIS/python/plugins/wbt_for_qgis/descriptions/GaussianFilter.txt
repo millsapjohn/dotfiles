@@ -1,0 +1,9 @@
+GaussianFilter
+GaussianFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a Gaussian filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#GaussianFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|sigma|Standard Deviation (pixels)|QgsProcessingParameterNumber.Double|0.75|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

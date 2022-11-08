@@ -1,0 +1,11 @@
+SmoothVegetationResidual
+SmoothVegetationResidual
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool can smooth the residual roughness due to vegetation cover in LiDAR DEMs
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#SmoothVegetationResidual
+QgsProcessingParameterRasterLayer|input|Input Digital Elevation Model (DEM) Raster|None|False
+QgsProcessingParameterNumber|max_scale|Maximum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|30|True|None|None
+QgsProcessingParameterNumber|dev_threshold|DEVmax Threshold|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterNumber|scale_threshold|DEVmax Scale Threshold|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

@@ -1,0 +1,8 @@
+NumInflowingNeighbours
+NumInflowingNeighbours
+Hydrological Analysis
+hydrologicalanalysis
+Computes the number of inflowing neighbours to each cell in an input DEM based on the D8 algorithm
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#NumInflowingNeighbours
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,10 @@
+PercentElevRange
+PercentElevRange
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates percent of elevation range from a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#PercentElevRange
+QgsProcessingParameterRasterLayer|input|Input DEM File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

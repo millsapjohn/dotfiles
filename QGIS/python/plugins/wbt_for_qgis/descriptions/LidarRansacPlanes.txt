@@ -1,0 +1,16 @@
+LidarRansacPlanes
+LidarRansacPlanes
+LiDAR Tools
+lidartools
+Performs a RANSAC analysis to identify points within a LiDAR point cloud that belong to linear planes
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarRansacPlanes
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|num_iter|Number of Iterations|QgsProcessingParameterNumber.Integer|50|True|None|None
+QgsProcessingParameterNumber|num_samples|Number of Sample Points|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterNumber|threshold|Inlier Threshold|QgsProcessingParameterNumber.Double|0.35|True|None|None
+QgsProcessingParameterNumber|model_size|Acceptable Model Size|QgsProcessingParameterNumber.Integer|8|True|None|None
+QgsProcessingParameterNumber|max_slope|Maximum Planar Slope|QgsProcessingParameterNumber.Double|80.0|True|None|None
+QgsProcessingParameterBoolean|classify|Classify Points|False|True
+QgsProcessingParameterBoolean|last_returns|Last Returns Only|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

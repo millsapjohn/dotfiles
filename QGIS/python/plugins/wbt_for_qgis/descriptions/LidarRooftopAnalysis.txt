@@ -1,0 +1,18 @@
+LidarRooftopAnalysis
+LidarRooftopAnalysis
+LiDAR Tools
+lidartools
+Identifies roof segments in a LiDAR point cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarRooftopAnalysis
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFeatureSource|buildings|Input Building Footprint Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|num_iter|Number of Iterations|QgsProcessingParameterNumber.Integer|50|True|None|None
+QgsProcessingParameterNumber|num_samples|Number of Sample Points|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterNumber|threshold|Inlier Threshold|QgsProcessingParameterNumber.Double|0.15|True|None|None
+QgsProcessingParameterNumber|model_size|Acceptable Model Size (points)|QgsProcessingParameterNumber.Integer|15|True|None|None
+QgsProcessingParameterNumber|max_slope|Maximum Planar Slope (degrees)|QgsProcessingParameterNumber.Double|65.0|True|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold (degrees)|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterNumber|azimuth|Azimuth (degrees)|QgsProcessingParameterNumber.Double|180.0|True|None|None
+QgsProcessingParameterNumber|altitude|Altitude (degrees)|QgsProcessingParameterNumber.Double|30.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

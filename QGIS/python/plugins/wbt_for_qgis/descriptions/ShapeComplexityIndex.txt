@@ -1,0 +1,7 @@
+ShapeComplexityIndex
+ShapeComplexityIndex
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Calculates overall polygon shape complexity or irregularity
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#ShapeComplexityIndex
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

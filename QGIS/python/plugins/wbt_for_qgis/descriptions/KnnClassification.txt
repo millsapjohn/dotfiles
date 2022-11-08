@@ -1,0 +1,14 @@
+KnnClassification
+KnnClassification
+Machine Learning
+machinelearning
+Performs a supervised k-nearest neighbour classification using training site polygons/points and predictor rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#KnnClassification
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|scaling|Scaling Method|None;Normalize;Standardize|False|1|True
+QgsProcessingParameterFeatureSource|training|Input Training Polygons/Points|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterString|field|Class Name Field|None|False|False
+QgsProcessingParameterNumber|k|Number of Nearest Neighbours, k|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterBoolean|clip|Perform training data clipping?|True|True
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|False|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

@@ -1,0 +1,8 @@
+ElevAbovePit
+ElevAbovePit
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculate the elevation of each grid cell above the nearest downstream pit cell or grid edge cell
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ElevAbovePit
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

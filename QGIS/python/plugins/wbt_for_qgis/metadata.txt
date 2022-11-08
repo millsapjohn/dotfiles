@@ -1,0 +1,22 @@
+[general]
+name=WhiteboxTools for QGIS
+description=Advanced geospatial data analysis platform.
+about=WhiteboxTools (WBT) is an advanced geospatial software package and a data analysis platform with functionality in GIS, remote sensing, LiDAR data processing, DEM analysis, spatial hydrology, and stream network analysis. It was developed by Dr. John Lindsay, at the University of Guelph, and co-founder of Whitebox Geospatial Inc. This plugin provides the QGIS interface with WBT, however it does not include the WBT binary itself. Before using the tools, you will need to download and install them from https://www.whiteboxgeo.com/. Instructions about how to install this plugin can also be found in the user manual, at https://www.whiteboxgeo.com/manual/wbt_book/qgis_plugin.html.
+category=Plugins
+version=1.0.5
+qgisMinimumVersion=3.18
+
+icon=icons/whiteboxtools.svg
+tags=analysis,processing,raster,vector,lidar
+
+author=John Lindsay and Alexander Bruy
+email=support@whiteboxgeo.com
+
+homepage=https://www.whiteboxgeo.com/geospatial-software/
+tracker=https://github.com/jblindsay/whitebox-tools/issues
+repository=https://github.com/jblindsay/whitebox-tools
+
+hasProcessingProvider=yes
+
+experimental=False
+deprecated=False

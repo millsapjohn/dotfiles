@@ -1,0 +1,8 @@
+HeightAboveGround
+HeightAboveGround
+LiDAR Tools
+lidartools
+Normalizes a LiDAR point cloud, providing the height above the nearest ground-classified point
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#HeightAboveGround
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterRasterDestination|output|Output File|None|True

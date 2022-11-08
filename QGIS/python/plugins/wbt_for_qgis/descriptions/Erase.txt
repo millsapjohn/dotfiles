@@ -1,0 +1,9 @@
+Erase
+Erase
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Removes all the features, or parts of features, that overlap with the features of the erase vector polygon
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#Erase
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|erase|Input Erase Polygon Vector File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,11 @@
+LidarKappaIndex
+LidarKappaIndex
+LiDAR Tools
+lidartools
+Performs a kappa index of agreement (KIA) analysis on the classifications of two LAS files
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarKappaIndex
+QgsProcessingParameterFile|input1|Input LiDAR File (Classification)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFile|input2|Input LiDAR File (Reference)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False
+QgsProcessingParameterRasterDestination|class_accuracy|Output Class Accuracy Raster File|None|False

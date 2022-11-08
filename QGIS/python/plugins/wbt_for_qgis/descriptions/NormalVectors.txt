@@ -1,0 +1,9 @@
+NormalVectors
+NormalVectors
+LiDAR Tools
+lidartools
+Calculates normal vectors for points within a LAS file and stores these data (XYZ vector components) in the RGB field
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#NormalVectors
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

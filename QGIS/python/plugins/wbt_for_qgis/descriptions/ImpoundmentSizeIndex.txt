@@ -1,0 +1,13 @@
+ImpoundmentSizeIndex
+ImpoundmentSizeIndex
+Hydrological Analysis
+hydrologicalanalysis
+Calculates the impoundment size resulting from damming a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#ImpoundmentSizeIndex
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|damlength|Max dam length (grid cells)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|out_mean|Output Mean Depth File|None|True
+QgsProcessingParameterRasterDestination|out_max|Output Max. Depth File|None|True
+QgsProcessingParameterRasterDestination|out_volume|Output Volume File|None|True
+QgsProcessingParameterRasterDestination|out_area|Output Area File|None|True
+QgsProcessingParameterRasterDestination|out_dam_height|Output Dam Height File|None|True

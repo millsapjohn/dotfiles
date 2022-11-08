@@ -1,0 +1,82 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=PostGIS Raster Import
+qgisMinimumVersion=3.0
+description=Import Raster to PgRaster
+version=3.0.0
+author=Dr. Horst Duester
+email=horst.duester@sourcepole.ch
+
+about=The plugin is designed to easily import file-based rasters into a PostGIS database. 
+
+
+  The underlying raster import is based on the work of:
+  
+  - Mateusz Loskot <mateusz@loskot.net> Copyright (C) 2009-2010 
+  - Pierre Racine <pierre.racine@sbf.ulaval.ca> Copyright (C) 2009-2011
+  - Jorge Arevalo <jorge.arevalo@deimos-space.com> Copyright (C) 2009-2010 
+  - Horst Duester <horst.duester@sourcepole.ch> Copyright (C) 2016
+  
+tracker=https://github.com/hdus/pg_raster_upload/issues
+repository=https://github.com/hdus/pg_raster_upload
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+changelog=
+  3.0.0
+  - set to revision 3.0.0 due to QGIS 3
+  - Fixed pull request for fix #4
+  - better error handling with respect to no raster extension installed.
+  1.0.11
+  - clear schema combobox when new database selected
+  1.0.10
+  - overview creation fixed
+  1.0.9
+  - DB credential handling improved
+  1.0.8
+  - enable buttons bug fixed
+  1.0.7
+  - Fix database login
+  - launder_table_name improved
+  1.0.6
+  - Laundering of resulting database table improved
+  - Checkbox "Add Raster to Mapcanvas" added
+  1.0.5
+  - Tablename always to lowercase
+  1.0.4
+  - Improved error handling
+  1.0.3
+  - Fix #1
+  1.0.2
+  - Bugfixing
+  1.0.1
+  - Bugfixing
+  1.0.0
+  - Initial release
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/hdus/pg_raster_upload
+category=Database
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+# If the plugin can run on QGIS Server.
+server=False
+

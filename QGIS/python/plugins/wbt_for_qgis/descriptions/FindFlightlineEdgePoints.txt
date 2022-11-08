@@ -1,0 +1,8 @@
+FindFlightlineEdgePoints
+FindFlightlineEdgePoints
+LiDAR Tools
+lidartools
+Identifies points along a flightline's edge in a LAS file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#FindFlightlineEdgePoints
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

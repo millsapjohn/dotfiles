@@ -1,0 +1,16 @@
+ImageSlider
+ImageSlider
+Image Processing Tools
+imageprocessingtools
+This tool creates an image slider from two input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#ImageSlider
+QgsProcessingParameterRasterLayer|input1|Left Input Raster Image|None|False
+QgsProcessingParameterEnum|palette1|Left Image Palette|grey;atlas;high_relief;arid;soft;muted;purple;viridi;gn_yl;pi_y_g;bl_yl_rd;deep;rgb|False|0|True
+QgsProcessingParameterBoolean|reverse1|Reverse left image palette?|False|False
+QgsProcessingParameterString|label1|Left Image Label (blank for none)|None|False|True
+QgsProcessingParameterRasterLayer|input2|Right Input Raster Image|None|False
+QgsProcessingParameterEnum|palette2|Right Image Palette|grey;atlas;high_relief;arid;soft;muted;purple;viridi;gn_yl;pi_y_g;bl_yl_rd;deep;rgb|False|0|True
+QgsProcessingParameterBoolean|reverse2|Reverse right image palette?|False|False
+QgsProcessingParameterString|label2|Right Image Label (blank for none)|None|False|True
+QgsProcessingParameterNumber|height|Image Height (in pixels)|QgsProcessingParameterNumber.Integer|600|True|None|None
+QgsProcessingParameterFileDestination|output|Output File (*.html)|HTML files (*.html *.HTML)|None|False

@@ -1,0 +1,17 @@
+EmbankmentMapping
+EmbankmentMapping
+Geomorphometric Analysis
+geomorphometricanalysis
+Maps and/or removes road embankments from an input fine-resolution DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#EmbankmentMapping
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|road_vec|Input Vector Transportation Line File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|search_dist|Search Distance (in map units)|QgsProcessingParameterNumber.Double|2.5|False|None|None
+QgsProcessingParameterNumber|min_road_width|Minimum Road Width (in map units)|QgsProcessingParameterNumber.Double|6.0|False|None|None
+QgsProcessingParameterNumber|typical_width|Typical Embankment Width (in map units)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterNumber|max_height|Typical Embankment Max Height (in map units)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|max_width|Embankment Max Width (in map units)|QgsProcessingParameterNumber.Double|60.0|False|None|None
+QgsProcessingParameterNumber|max_increment|Max Upwards Increment (in elevation units)|QgsProcessingParameterNumber.Double|0.05|False|None|None
+QgsProcessingParameterNumber|spillout_slope|Spillout Slope (in map units)|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterBoolean|remove_embankments|Remove mapped embankments?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

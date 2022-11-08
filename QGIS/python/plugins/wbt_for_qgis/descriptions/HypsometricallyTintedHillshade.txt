@@ -1,0 +1,16 @@
+HypsometricallyTintedHillshade
+HypsometricallyTintedHillshade
+Geomorphometric Analysis
+geomorphometricanalysis
+Creates an colour shaded relief image from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#HypsometricallyTintedHillshade
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|altitude|Illumination Source Altitude (degrees)|QgsProcessingParameterNumber.Double|45.0|True|None|None
+QgsProcessingParameterNumber|hs_weight|Hillshade Weight|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|brightness|Brightness|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|atmospheric|Atmospheric Effects|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterEnum|palette|Palette|atlas;high_relief;arid;soft;muted;purple;viridi;gn_yl;pi_y_g;bl_yl_rd;deep|False|0|True
+QgsProcessingParameterBoolean|reverse|Reverse palette?|False|True
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|full_mode|Full 360-degree hillshade mode?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

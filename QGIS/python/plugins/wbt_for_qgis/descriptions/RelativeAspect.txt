@@ -1,0 +1,10 @@
+RelativeAspect
+RelativeAspect
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates relative aspect (relative to a user-specified direction) from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#RelativeAspect
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|azimuth|Azimuth|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

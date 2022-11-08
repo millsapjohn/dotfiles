@@ -1,0 +1,11 @@
+CsvPointsToVector
+CsvPointsToVector
+Data Tools
+datatools
+Converts a CSV text file to vector points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#CsvPointsToVector
+QgsProcessingParameterFile|input|Input CSV File|QgsProcessingParameterFile.File|csv|None|False
+QgsProcessingParameterNumber|xfield|X Field Number (zero-based)|QgsProcessingParameterNumber.Integer|0|True|None|None
+QgsProcessingParameterNumber|yfield|Y Field Number (zero-based)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|epsg|EPSG Projection|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

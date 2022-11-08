@@ -1,0 +1,9 @@
+LocalQuadraticRegression
+LocalQuadraticRegression
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool is an implementation of the constrained quadratic regression algorithm using a flexible window size described in Wood (1996)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#LocalQuadraticRegression
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterNumber|filter|Filter Edge Length|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

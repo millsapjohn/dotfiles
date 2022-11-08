@@ -1,0 +1,11 @@
+LidarShift
+LidarShift
+LiDAR Tools
+lidartools
+Shifts the x,y,z coordinates of a LiDAR file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarShift
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|x_shift|x-shift|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|y_shift|y-shift|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|z_shift|z-shift|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|False

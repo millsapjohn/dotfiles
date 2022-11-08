@@ -1,0 +1,11 @@
+EdgeDensity
+EdgeDensity
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the density of edges, or breaks-in-slope within DEMs
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#EdgeDensity
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|filter|Filter Size|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold|QgsProcessingParameterNumber.Double|5.0|True|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

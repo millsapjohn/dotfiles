@@ -1,0 +1,10 @@
+MinimalCurvature
+MinimalCurvature
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a mean curvature raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MinimalCurvature
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

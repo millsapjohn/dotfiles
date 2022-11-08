@@ -1,0 +1,10 @@
+TurningBandsSimulation
+TurningBandsSimulation
+Math and Stats Tools
+mathandstatstools
+Creates an image containing random values based on a turning-bands simulation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#TurningBandsSimulation
+QgsProcessingParameterRasterLayer|base|Input Base File|None|False
+QgsProcessingParameterNumber|range|Range of Autocorrelation (map units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|iterations|Iterations|QgsProcessingParameterNumber.Integer|1000|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

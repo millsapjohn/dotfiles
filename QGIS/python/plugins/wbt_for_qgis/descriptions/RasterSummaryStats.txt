@@ -1,0 +1,7 @@
+RasterSummaryStats
+RasterSummaryStats
+Math and Stats Tools
+mathandstatstools
+Measures a rasters min, max, average, standard deviation, num. non-nodata cells, and total
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#RasterSummaryStats
+QgsProcessingParameterRasterLayer|input|Input File|None|False

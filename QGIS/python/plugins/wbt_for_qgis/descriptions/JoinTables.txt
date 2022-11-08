@@ -1,0 +1,11 @@
+JoinTables
+JoinTables
+Data Tools
+datatools
+Merge a vector's attribute table with another table based on a common field
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#JoinTables
+QgsProcessingParameterFeatureSource|input1|Input Primary Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|pkey|Primary Key Field|None|input1|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any
+QgsProcessingParameterFeatureSource|input2|Input Foreign Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|fkey|Foreign Key Field|None|input2|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any
+QgsProcessingParameterField|import_field|Imported Field|None|input2|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any

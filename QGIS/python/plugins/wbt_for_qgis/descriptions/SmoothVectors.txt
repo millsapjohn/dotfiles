@@ -1,0 +1,9 @@
+SmoothVectors
+SmoothVectors
+GIS Analysis
+gisanalysis
+Smooths a vector coverage of either a POLYLINE or POLYGON base ShapeType
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#SmoothVectors
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|filter|Filter Size|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

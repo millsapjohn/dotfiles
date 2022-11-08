@@ -1,0 +1,8 @@
+RasterHistogram
+RasterHistogram
+Math and Stats Tools
+mathandstatstools
+Creates a histogram from raster values
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#RasterHistogram
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

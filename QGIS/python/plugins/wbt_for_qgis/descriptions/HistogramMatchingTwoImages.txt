@@ -1,0 +1,9 @@
+HistogramMatchingTwoImages
+HistogramMatchingTwoImages
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+This tool alters the cumulative distribution function of a raster image to that of another image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#HistogramMatchingTwoImages
+QgsProcessingParameterRasterLayer|input1|Input File To Modify|None|False
+QgsProcessingParameterRasterLayer|input2|Input Reference File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,12 @@
+MaxAnisotropyDevSignature
+MaxAnisotropyDevSignature
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the anisotropy in deviation from mean for points over a range of spatial scales
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MaxAnisotropyDevSignature
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|points|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|min_scale|Minimum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|max_scale|Maximum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|step|Step Size|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

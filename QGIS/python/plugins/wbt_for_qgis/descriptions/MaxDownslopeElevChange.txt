@@ -1,0 +1,8 @@
+MaxDownslopeElevChange
+MaxDownslopeElevChange
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the maximum downslope change in elevation between a grid cell and its eight downslope neighbors
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MaxDownslopeElevChange
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

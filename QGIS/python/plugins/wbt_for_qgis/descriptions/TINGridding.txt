@@ -1,0 +1,13 @@
+TINGridding
+TINGridding
+GIS Analysis
+gisanalysis
+Creates a raster grid based on a triangular irregular network (TIN) fitted to vector points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#TINGridding
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use Shapefile 'z' values?|False|True
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterNumber|max_triangle_edge_length|Maximum Triangle Edge Length (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

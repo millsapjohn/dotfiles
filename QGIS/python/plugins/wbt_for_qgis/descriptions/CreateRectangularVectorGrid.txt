@@ -1,0 +1,12 @@
+CreateRectangularVectorGrid
+CreateRectangularVectorGrid
+GIS Analysis
+gisanalysis
+Creates a rectangular vector grid
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#CreateRectangularVectorGrid
+QgsProcessingParameterMapLayer|base|Input Base File|None|False|QgsProcessing.TypeRaster;QgsProcessing.TypeVectorAnyGeometry
+QgsProcessingParameterNumber|width|Grid Cell Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|height|Grid Cell Height|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|xorig|Grid origin x-coordinate|QgsProcessingParameterNumber.Double|0|True|None|None
+QgsProcessingParameterNumber|yorig|Grid origin y-coordinate|QgsProcessingParameterNumber.Double|0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

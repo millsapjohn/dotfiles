@@ -1,0 +1,9 @@
+FilterLidarScanAngles
+FilterLidarScanAngles
+LiDAR Tools
+lidartools
+Removes points in a LAS file with scan angles greater than a threshold
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#FilterLidarScanAngles
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|threshold|Threshold (degrees)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

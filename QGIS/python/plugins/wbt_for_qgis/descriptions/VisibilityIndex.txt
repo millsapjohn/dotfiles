@@ -1,0 +1,10 @@
+VisibilityIndex
+VisibilityIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+Estimates the relative visibility of sites in a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#VisibilityIndex
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|height|Station Height (in z units)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|res_factor|Resolution Factor|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+Profile
+Profile
+Geomorphometric Analysis
+geomorphometricanalysis
+Plots profiles from digital surface models
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Profile
+QgsProcessingParameterFeatureSource|lines|Input Vector Line File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|surface|Input Surface File|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

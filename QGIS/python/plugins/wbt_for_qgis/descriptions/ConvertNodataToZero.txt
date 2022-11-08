@@ -1,0 +1,8 @@
+ConvertNodataToZero
+ConvertNodataToZero
+Data Tools
+datatools
+Converts nodata values in a raster to zero
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#ConvertNodataToZero
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,10 @@
+LidarHistogram
+LidarHistogram
+LiDAR Tools
+lidartools
+Creates a histogram of LiDAR data
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarHistogram
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|parameter|Parameter|elevation;intensity;scan angle;class;time|False|0|True
+QgsProcessingParameterNumber|clip|Tail Clip Percent|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

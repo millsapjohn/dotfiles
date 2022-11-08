@@ -1,0 +1,9 @@
+Basins
+Basins
+Hydrological Analysis
+hydrologicalanalysis
+Identifies drainage basins that drain to the DEM edge
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#Basins
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

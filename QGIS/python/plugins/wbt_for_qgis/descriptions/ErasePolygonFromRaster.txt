@@ -1,0 +1,9 @@
+ErasePolygonFromRaster
+ErasePolygonFromRaster
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Erases (cuts out) a vector polygon from a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#ErasePolygonFromRaster
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFeatureSource|polygons|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

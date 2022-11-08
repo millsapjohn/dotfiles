@@ -1,0 +1,9 @@
+RasterCellAssignment
+RasterCellAssignment
+GIS Analysis
+gisanalysis
+Assign row or column number to cells
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#RasterCellAssignment
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|assign|Which spatial variable should be assigned?|column;row;x;y|False|0|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

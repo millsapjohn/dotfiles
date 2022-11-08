@@ -1,0 +1,10 @@
+DownslopeDistanceToStream
+DownslopeDistanceToStream
+Hydrological Analysis
+hydrologicalanalysis
+Measures distance to the nearest downslope stream cell
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#DownslopeDistanceToStream
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterBoolean|dinf|Use the D-infinity flow algorithm instead of D8?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

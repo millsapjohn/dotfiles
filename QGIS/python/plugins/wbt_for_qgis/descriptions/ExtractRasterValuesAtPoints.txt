@@ -1,0 +1,9 @@
+ExtractRasterValuesAtPoints
+ExtractRasterValuesAtPoints
+GIS Analysis
+gisanalysis
+Extracts the values of raster(s) at vector point locations
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#ExtractRasterValuesAtPoints
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|points|Input Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterBoolean|out_text|Output text?|False|True

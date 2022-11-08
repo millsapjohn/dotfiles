@@ -1,0 +1,10 @@
+SplitColourComposite
+SplitColourComposite
+Image Processing Tools
+imageprocessingtools
+This tool splits an RGB colour composite image into separate multispectral images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#SplitColourComposite
+QgsProcessingParameterRasterLayer|input|Input Colour Composite Image File|None|False
+QgsProcessingParameterRasterDestination|red|Output Red Band File|None|True
+QgsProcessingParameterRasterDestination|green|Output Green Band File|None|True
+QgsProcessingParameterRasterDestination|blue|Output Blue Band File|None|True

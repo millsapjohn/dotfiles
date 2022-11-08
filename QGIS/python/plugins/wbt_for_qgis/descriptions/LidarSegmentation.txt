@@ -1,0 +1,18 @@
+LidarSegmentation
+LidarSegmentation
+LiDAR Tools
+lidartools
+Segments a LiDAR point cloud based on differences in the orientation of fitted planar surfaces and point proximity
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarSegmentation
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|num_iter|Number of Iterations|QgsProcessingParameterNumber.Integer|50|True|None|None
+QgsProcessingParameterNumber|num_samples|Number of Sample Points|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterNumber|threshold|Inlier Threshold|QgsProcessingParameterNumber.Double|0.15|True|None|None
+QgsProcessingParameterNumber|model_size|Acceptable Model Size|QgsProcessingParameterNumber.Integer|15|True|None|None
+QgsProcessingParameterNumber|max_slope|Maximum Planar Slope|QgsProcessingParameterNumber.Double|80.0|True|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterNumber|maxzdiff|Maximum Elevation Difference Between Points|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterBoolean|classes|Don't cross class boundaries?|False|True
+QgsProcessingParameterBoolean|ground|Classify largest segment as ground?|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

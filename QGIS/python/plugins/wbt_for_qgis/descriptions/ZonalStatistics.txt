@@ -1,0 +1,11 @@
+ZonalStatistics
+ZonalStatistics
+Math and Stats Tools
+mathandstatstools
+Extracts descriptive statistics for a group of patches in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ZonalStatistics
+QgsProcessingParameterRasterLayer|input|Input Data File|None|False
+QgsProcessingParameterRasterLayer|features|Input Feature Definition File|None|False
+QgsProcessingParameterEnum|stat|Statistic Type|mean;median;minimum;maximum;range;standard deviation;total|False|0|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True
+QgsProcessingParameterFileDestination|out_table|Output HTML Table File|HTML files (*.html *.HTML)|None|True

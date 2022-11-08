@@ -1,0 +1,10 @@
+StreamPowerIndex
+StreamPowerIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the relative stream power index
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#StreamPowerIndex
+QgsProcessingParameterRasterLayer|sca|Input Specific Contributing Area (SCA) File|None|False
+QgsProcessingParameterRasterLayer|slope|Input Slope File|None|False
+QgsProcessingParameterNumber|exponent|Specific Contributing Area (SCA) Exponent|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

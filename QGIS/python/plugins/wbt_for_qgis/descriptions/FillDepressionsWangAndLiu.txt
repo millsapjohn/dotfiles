@@ -1,0 +1,10 @@
+FillDepressionsWangAndLiu
+FillDepressionsWangAndLiu
+Hydrological Analysis
+hydrologicalanalysis
+Fills all of the depressions in a DEM using the Wang and Liu (2006) method. Depression breaching should be preferred in most cases
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FillDepressionsWangAndLiu
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|fix_flats|Fix flat areas?|True|True
+QgsProcessingParameterNumber|flat_increment|Flat increment value (z units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

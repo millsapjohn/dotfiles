@@ -1,0 +1,10 @@
+LasToZlidar
+LasToZlidar
+LiDAR Tools
+lidartools
+Converts one or more LAS files into the zlidar compressed LiDAR data format
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LasToZlidar
+QgsProcessingParameterMultipleLayers|inputs|Input LAS Files|QgsProcessing.TypePointCloud|None|False
+QgsProcessingParameterFile|outdir|Output Directory|QgsProcessingParameterFile.Folder|None|None|True
+QgsProcessingParameterEnum|compress|Compression Method|brotli;deflate|False|0|True
+QgsProcessingParameterNumber|level|Compression Level|QgsProcessingParameterNumber.Integer|5|True|None|None

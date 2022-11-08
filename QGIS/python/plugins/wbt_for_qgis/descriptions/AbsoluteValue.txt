@@ -1,0 +1,8 @@
+AbsoluteValue
+AbsoluteValue
+Math and Stats Tools
+mathandstatstools
+Calculates the absolute value of every cell in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#AbsoluteValue
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,10 @@
+DevFromMeanElev
+DevFromMeanElev
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates deviation from mean elevation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#DevFromMeanElev
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

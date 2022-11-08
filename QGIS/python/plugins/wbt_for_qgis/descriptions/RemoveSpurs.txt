@@ -1,0 +1,9 @@
+RemoveSpurs
+RemoveSpurs
+Image Processing Tools
+imageprocessingtools
+Removes the spurs (pruning operation) from a Boolean line image; intended to be used on the output of the LineThinning tool
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#RemoveSpurs
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|iterations|Maximum Iterations|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

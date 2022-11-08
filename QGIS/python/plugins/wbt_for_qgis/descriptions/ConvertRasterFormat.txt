@@ -1,0 +1,8 @@
+ConvertRasterFormat
+ConvertRasterFormat
+Data Tools
+datatools
+Converts raster data from one format to another
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#ConvertRasterFormat
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

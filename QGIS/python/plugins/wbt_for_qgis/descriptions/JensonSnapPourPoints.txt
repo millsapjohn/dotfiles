@@ -1,0 +1,10 @@
+JensonSnapPourPoints
+JensonSnapPourPoints
+Hydrological Analysis
+hydrologicalanalysis
+Moves outlet points used to specify points of interest in a watershedding operation to the nearest stream cell
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#JensonSnapPourPoints
+QgsProcessingParameterFeatureSource|pour_pts|Input Pour Points (Outlet) File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterNumber|snap_dist|Maximum Snap Distance (map units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterVectorDestination|output|Output File|QgsProcessing.TypeVectorPoint|None|False

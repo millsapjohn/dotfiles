@@ -1,0 +1,11 @@
+TophatTransform
+TophatTransform
+Image Processing Tools
+imageprocessingtools
+Performs either a white or black top-hat transform on an input image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#TophatTransform
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterEnum|variant|Variant|white;black|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

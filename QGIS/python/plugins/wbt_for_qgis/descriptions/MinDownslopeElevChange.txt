@@ -1,0 +1,8 @@
+MinDownslopeElevChange
+MinDownslopeElevChange
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the minimum downslope change in elevation between a grid cell and its eight downslope neighbors
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MinDownslopeElevChange
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

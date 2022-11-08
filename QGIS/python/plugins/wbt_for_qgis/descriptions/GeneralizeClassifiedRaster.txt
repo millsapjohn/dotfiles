@@ -1,0 +1,10 @@
+GeneralizeClassifiedRaster
+GeneralizeClassifiedRaster
+Image Processing Tools - Classification
+imageprocessingtoolsclassification
+Generalizes a raster containing class or object features by removing small features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_classification.html#GeneralizeClassifiedRaster
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterNumber|min_size|Min. Feature Size (in grid cells)|QgsProcessingParameterNumber.Integer|4|True|None|None
+QgsProcessingParameterEnum|method|Method|longest;largest;nearest|False|0|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

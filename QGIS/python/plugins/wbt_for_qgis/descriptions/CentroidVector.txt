@@ -1,0 +1,8 @@
+CentroidVector
+CentroidVector
+GIS Analysis
+gisanalysis
+Identifies the centroid point of a vector polyline or polygon feature or a group of vector points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#CentroidVector
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

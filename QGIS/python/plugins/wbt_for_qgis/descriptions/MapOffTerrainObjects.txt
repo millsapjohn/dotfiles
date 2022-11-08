@@ -1,0 +1,10 @@
+MapOffTerrainObjects
+MapOffTerrainObjects
+Geomorphometric Analysis
+geomorphometricanalysis
+Maps off-terrain objects in a digital elevation model (DEM)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MapOffTerrainObjects
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|max_slope|Maximum Slope|QgsProcessingParameterNumber.Double|40.0|False|None|None
+QgsProcessingParameterNumber|min_size|Minimum Feature Size|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

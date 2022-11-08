@@ -1,0 +1,14 @@
+QinFlowAccumulation
+QinFlowAccumulation
+Hydrological Analysis
+hydrologicalanalysis
+This tool calculates Qin et al. (2007) flow accumulation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#QinFlowAccumulation
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterEnum|out_type|Output Type|cells;specific contributing area;catchment area|False|1|True
+QgsProcessingParameterNumber|exponent|Upper-bound Exponent Parameter|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterNumber|max_slope|Upper-bound Slope Parameter (in degrees)|QgsProcessingParameterNumber.Double|45.0|True|None|None
+QgsProcessingParameterNumber|threshold|Convergence Threshold (grid cells; blank for none)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

@@ -1,0 +1,14 @@
+ReconcileMultipleHeaders
+ReconcileMultipleHeaders
+Precision Agriculture
+precisionagriculture
+This tool adjusts the crop yield values for data sets collected with multiple headers or combines
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/precision_agriculture.html#ReconcileMultipleHeaders
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|region_field|Region Field Name|None|False|False
+QgsProcessingParameterString|yield_field|Yield Field Name|None|False|False
+QgsProcessingParameterNumber|radius|Search Radius (m)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|min_yield|Minimum Yield|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_yield|Maximum Yield|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|mean_tonnage|Overall Average Tonnage (Optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Points|QgsProcessing.TypeVectorPoint|None|False

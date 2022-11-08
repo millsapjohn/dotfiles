@@ -1,0 +1,11 @@
+LidarThinHighDensity
+LidarThinHighDensity
+LiDAR Tools
+lidartools
+Thins points from high density areas within a LiDAR point cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarThinHighDensity
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterNumber|density|Max. Point Density (pts/m^2)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|save_filtered|Save filtered points to separate file?|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

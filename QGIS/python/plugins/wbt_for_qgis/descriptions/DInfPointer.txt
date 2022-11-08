@@ -1,0 +1,8 @@
+DInfPointer
+DInf Pointer
+Hydrological Analysis
+hydrologicalanalysis
+Calculates a D-infinity flow pointer (flow direction) raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#DInfPointer
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

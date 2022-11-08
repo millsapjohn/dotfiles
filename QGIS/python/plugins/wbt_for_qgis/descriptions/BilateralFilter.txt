@@ -1,0 +1,10 @@
+BilateralFilter
+BilateralFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+A bilateral filter is an edge-preserving smoothing filter introduced by Tomasi and Manduchi (1998)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#BilateralFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|sigma_dist|Distance Standard Deviation (pixels)|QgsProcessingParameterNumber.Double|0.75|True|None|None
+QgsProcessingParameterNumber|sigma_int|Intensity Standard Deviation (intensity units)|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

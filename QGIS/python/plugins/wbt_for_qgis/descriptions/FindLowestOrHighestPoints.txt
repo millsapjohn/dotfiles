@@ -1,0 +1,9 @@
+FindLowestOrHighestPoints
+FindLowestOrHighestPoints
+GIS Analysis
+gisanalysis
+Locates the lowest and/or highest valued cells in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#FindLowestOrHighestPoints
+QgsProcessingParameterRasterLayer|input|Input Raster File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|lowest;highest;both|False|0|True
+QgsProcessingParameterVectorDestination|output|Output Points File|QgsProcessing.TypeVectorPoint|None|False

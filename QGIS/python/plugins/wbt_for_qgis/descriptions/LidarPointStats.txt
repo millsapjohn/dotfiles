@@ -1,0 +1,14 @@
+LidarPointStats
+LidarPointStats
+LiDAR Tools
+lidartools
+Creates several rasters summarizing the distribution of LAS point data. When the input/output parameters are not specified, the tool works on all LAS files contained within the working directory
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarPointStats
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterBoolean|num_points|Output number of points?|True|True
+QgsProcessingParameterBoolean|num_pulses|Output number of pulses?|False|True
+QgsProcessingParameterBoolean|avg_points_per_pulse|Output average number of points per pulse?|True|True
+QgsProcessingParameterBoolean|z_range|Output elevation range?|False|True
+QgsProcessingParameterBoolean|intensity_range|Output intensity range?|False|True
+QgsProcessingParameterBoolean|predom_class|Output predominant class?|False|True

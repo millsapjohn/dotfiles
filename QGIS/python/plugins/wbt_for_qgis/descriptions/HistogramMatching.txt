@@ -1,0 +1,9 @@
+HistogramMatching
+HistogramMatching
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Alters the statistical distribution of a raster image matching it to a specified PDF
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#HistogramMatching
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFile|histo_file|Input Probability Distribution Function (PDF) Text File|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

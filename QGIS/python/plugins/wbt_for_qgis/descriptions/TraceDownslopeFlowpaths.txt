@@ -1,0 +1,11 @@
+TraceDownslopeFlowpaths
+TraceDownslopeFlowpaths
+Hydrological Analysis
+hydrologicalanalysis
+Traces downslope flowpaths from one or more target sites (i.e. seed points)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#TraceDownslopeFlowpaths
+QgsProcessingParameterFeatureSource|seed_pts|Input Vector Seed Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterBoolean|zero_background|Should a background value of zero be used?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

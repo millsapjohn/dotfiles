@@ -1,0 +1,11 @@
+StreamLinkClass
+StreamLinkClass
+Stream Network Analysis
+streamnetworkanalysis
+Identifies the exterior/interior links and nodes in a stream network
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#StreamLinkClass
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterBoolean|zero_background|Should a background value of zero be used?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

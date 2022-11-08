@@ -1,0 +1,10 @@
+EdgePreservingMeanFilter
+EdgePreservingMeanFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a simple edge-preserving mean filter on an input image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#EdgePreservingMeanFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filter|Filter Size|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|threshold|Value Difference Threshold|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

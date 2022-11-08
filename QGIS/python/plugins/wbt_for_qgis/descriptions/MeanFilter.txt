@@ -1,0 +1,10 @@
+MeanFilter
+MeanFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a mean filter (low-pass filter) on an input image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#MeanFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

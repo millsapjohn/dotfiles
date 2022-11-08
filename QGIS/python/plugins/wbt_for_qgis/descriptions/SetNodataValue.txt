@@ -1,0 +1,9 @@
+SetNodataValue
+SetNodataValue
+Data Tools
+datatools
+Assign a specified value in an input image to the NoData value
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#SetNodataValue
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|back_value|Background Value|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

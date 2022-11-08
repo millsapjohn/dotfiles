@@ -1,0 +1,9 @@
+Aspect
+Aspect
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates an aspect raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Aspect
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

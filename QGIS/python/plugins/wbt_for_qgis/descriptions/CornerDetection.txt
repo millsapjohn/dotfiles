@@ -1,0 +1,8 @@
+CornerDetection
+CornerDetection
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Identifies corner patterns in boolean images using hit-and-miss pattern matching
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#CornerDetection
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

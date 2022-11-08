@@ -1,0 +1,10 @@
+CreateHexagonalVectorGrid
+CreateHexagonalVectorGrid
+GIS Analysis
+gisanalysis
+Creates a hexagonal vector grid
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#CreateHexagonalVectorGrid
+QgsProcessingParameterMapLayer|base|Input Base File|None|False|QgsProcessing.TypeRaster;QgsProcessing.TypeVectorAnyGeometry
+QgsProcessingParameterNumber|width|Hexagon Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation|Grid Orientation|horizontal;vertical|False|0|True
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

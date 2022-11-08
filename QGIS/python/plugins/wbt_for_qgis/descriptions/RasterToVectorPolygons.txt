@@ -1,0 +1,8 @@
+RasterToVectorPolygons
+RasterToVectorPolygons
+Data Tools
+datatools
+Converts a raster dataset to a vector of the POLYGON shapetype
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#RasterToVectorPolygons
+QgsProcessingParameterRasterLayer|input|Input Raster File|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygons File|QgsProcessing.TypeVectorPolygon|None|False

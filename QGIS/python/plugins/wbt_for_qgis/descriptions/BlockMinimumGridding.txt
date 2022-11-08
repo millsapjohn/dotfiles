@@ -1,0 +1,12 @@
+BlockMinimumGridding
+BlockMinimumGridding
+GIS Analysis
+gisanalysis
+Creates a raster grid based on a set of vector points and assigns grid values using a block minimum scheme
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#BlockMinimumGridding
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use z-coordinate instead of field?|False|True
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

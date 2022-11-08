@@ -1,0 +1,9 @@
+ModifyLidar
+ModifyLidar
+LiDAR Tools
+lidartools
+Modify points within a LiDAR point cloud based on point properties
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ModifyLidar
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterString|statement|Statement:|None|False|False
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|True

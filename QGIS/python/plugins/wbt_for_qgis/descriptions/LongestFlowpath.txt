@@ -1,0 +1,9 @@
+LongestFlowpath
+LongestFlowpath
+Hydrological Analysis
+hydrologicalanalysis
+Delineates the longest flowpaths for a group of subbasins or watersheds
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#LongestFlowpath
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|basins|Basins File|None|False
+QgsProcessingParameterVectorDestination|output|Output File|QgsProcessing.TypeVectorLine|None|False

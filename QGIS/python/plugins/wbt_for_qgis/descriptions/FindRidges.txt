@@ -1,0 +1,9 @@
+FindRidges
+FindRidges
+Geomorphometric Analysis
+geomorphometricanalysis
+Identifies potential ridge and peak grid cells
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#FindRidges
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|line_thin|Perform line-thinning?|True|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+SelectTilesByPolygon
+SelectTilesByPolygon
+LiDAR Tools
+lidartools
+Copies LiDAR tiles overlapping with a polygon into an output directory
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#SelectTilesByPolygon
+QgsProcessingParameterFile|indir|Input Directory|QgsProcessingParameterFile.Folder|None|None|False
+QgsProcessingParameterFile|outdir|Output Directory|QgsProcessingParameterFile.Folder|None|None|False
+QgsProcessingParameterFeatureSource|polygons|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

@@ -1,0 +1,9 @@
+LineIntersections
+LineIntersections
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Identifies points where the features of two vector line layers intersect
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#LineIntersections
+QgsProcessingParameterFeatureSource|input1|Input Vector Lines File|QgsProcessing.TypeVectorPolygon;QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterFeatureSource|input2|Input Vector Lines File|QgsProcessing.TypeVectorPolygon;QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector Point File|QgsProcessing.TypeVectorPoint|None|False

@@ -1,0 +1,9 @@
+AsciiToLas
+AsciiToLas
+LiDAR Tools
+lidartools
+Converts one or more ASCII files containing LiDAR points into LAS files
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#AsciiToLas
+QgsProcessingParameterMultipleLayers|inputs|Input LiDAR point ASCII Files (.csv)|QgsProcessing.TypeFile|None|False
+QgsProcessingParameterString|pattern|Pattern|None|False|False
+QgsProcessingParameterString|proj|Well-known-text (WKT) string or EPSG code|None|False|True

@@ -1,0 +1,8 @@
+IntegralImage
+IntegralImage
+Image Processing Tools
+imageprocessingtools
+Transforms an input image (summed area table) into its integral image equivalent
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#IntegralImage
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

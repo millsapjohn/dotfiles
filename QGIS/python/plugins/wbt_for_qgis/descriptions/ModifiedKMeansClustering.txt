@@ -1,0 +1,13 @@
+ModifiedKMeansClustering
+ModifiedKMeansClustering
+Machine Learning
+machinelearning
+Performs a modified k-means clustering operation on a multi-spectral dataset
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#ModifiedKMeansClustering
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|start_clusters|Initial Num. of Clusters|QgsProcessingParameterNumber.Integer|1000|True|None|None
+QgsProcessingParameterNumber|merge_dist|Cluster Merger Distance|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_iterations|Max. Iterations|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterNumber|class_change|Percent Class Change Threshold|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False
+QgsProcessingParameterFileDestination|out_html|Output HTML Report File|HTML files (*.html *.HTML)|None|True

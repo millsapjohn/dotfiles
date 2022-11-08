@@ -1,0 +1,9 @@
+ImageAutocorrelation
+ImageAutocorrelation
+Math and Stats Tools
+mathandstatstools
+Performs Moran's I analysis on two or more input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ImageAutocorrelation
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|contiguity|Contiguity Type|Rook;King;Bishop|False|0|True
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

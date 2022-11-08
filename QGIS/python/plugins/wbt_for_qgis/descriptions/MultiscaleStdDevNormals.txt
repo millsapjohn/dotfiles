@@ -1,0 +1,13 @@
+MultiscaleStdDevNormals
+MultiscaleStdDevNormals
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates surface roughness over a range of spatial scales
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MultiscaleStdDevNormals
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|min_scale|Minimum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|step|Base Step Size|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|num_steps|Number of Steps|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|step_nonlinearity|Step Nonlinearity|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|out_mag|Output Roughness Magnitude File|None|False
+QgsProcessingParameterRasterDestination|out_scale|Output Roughness Scale File|None|False

@@ -1,0 +1,9 @@
+FlipImage
+FlipImage
+Image Processing Tools
+imageprocessingtools
+Reflects an image in the vertical or horizontal axis
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#FlipImage
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|direction|Direction|vertical;horizontal;both|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

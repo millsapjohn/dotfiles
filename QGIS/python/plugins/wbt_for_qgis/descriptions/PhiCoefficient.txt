@@ -1,0 +1,9 @@
+PhiCoefficient
+PhiCoefficient
+Math and Stats Tools
+mathandstatstools
+This tool performs a binary classification accuracy assessment
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#PhiCoefficient
+QgsProcessingParameterRasterLayer|input1|Input Raster Image 1|None|False
+QgsProcessingParameterRasterLayer|input2|Input Raster Image 2|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

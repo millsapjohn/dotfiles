@@ -1,0 +1,15 @@
+RandomForestClassification
+RandomForestClassification
+Machine Learning
+machinelearning
+Performs a supervised random forest classification using training site polygons/points and predictor rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#RandomForestClassification
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|training|Input Training Polygons/Points|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterString|field|Class Field Name|None|False|False
+QgsProcessingParameterEnum|split_criterion|Split Criterion|Gini;Entropy;ClassificationError|False|0|True
+QgsProcessingParameterNumber|n_trees|Number of Trees in Forest|QgsProcessingParameterNumber.Integer|500|True|None|None
+QgsProcessingParameterNumber|min_samples_leaf|Min Number of Samples to be a Leaf|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|min_samples_split|Min Number of Samples Needed to Split Node|QgsProcessingParameterNumber.Integer|2|True|None|None
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

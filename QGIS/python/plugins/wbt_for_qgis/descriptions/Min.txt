@@ -1,0 +1,9 @@
+Min
+Min
+Math and Stats Tools
+mathandstatstools
+Performs a MIN operation on two rasters or a raster and a constant value
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Min
+QgsProcessingParameterRasterLayer|input1|Input File Or Constant Value|None|False
+QgsProcessingParameterRasterLayer|input2|Input File Or Constant Value|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

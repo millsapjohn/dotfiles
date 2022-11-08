@@ -1,0 +1,12 @@
+RescaleValueRange
+RescaleValueRange
+Math and Stats Tools
+mathandstatstools
+Performs a min-max contrast stretch on an input greytone image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#RescaleValueRange
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|out_min_val|Output Raster Minimum Value|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|out_max_val|Output Raster Maximum Value|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|clip_min|Lower-Tail Clip Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|clip_max|Upper-Tail Clip Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

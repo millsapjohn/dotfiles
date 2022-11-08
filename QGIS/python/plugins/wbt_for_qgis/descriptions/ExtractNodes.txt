@@ -1,0 +1,8 @@
+ExtractNodes
+ExtractNodes
+GIS Analysis
+gisanalysis
+Converts vector lines or polygons into vertex points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#ExtractNodes
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|output|Output Points File|QgsProcessing.TypeVectorPoint|None|False

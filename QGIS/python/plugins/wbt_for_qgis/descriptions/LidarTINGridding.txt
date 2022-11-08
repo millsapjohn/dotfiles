@@ -1,0 +1,15 @@
+LidarTINGridding
+LidarTINGridding
+LiDAR Tools
+lidartools
+Creates a raster grid based on a Delaunay triangular irregular network (TIN) fitted to LiDAR points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarTINGridding
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|parameter|Interpolation Parameter|elevation;intensity;class;return_number;number_of_returns;scan angle;rgb;user data|False|0|True
+QgsProcessingParameterEnum|returns|Point Returns Included|all;last;first|False|0|True
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterString|exclude_cls|Exclusion Classes (0-18, based on LAS spec; e.g. 3,4,5,6,7)|7,18|False|True
+QgsProcessingParameterNumber|minz|Minimum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|maxz|Maximum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_triangle_edge_length|Maximum Triangle Edge Length (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|True

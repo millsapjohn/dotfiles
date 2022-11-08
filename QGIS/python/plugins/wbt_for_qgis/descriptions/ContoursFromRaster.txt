@@ -1,0 +1,12 @@
+ContoursFromRaster
+ContoursFromRaster
+Geomorphometric Analysis
+geomorphometricanalysis
+Derives a vector contour coverage from a raster surface
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ContoursFromRaster
+QgsProcessingParameterRasterLayer|input|Input Raster Surface File|None|False
+QgsProcessingParameterNumber|interval|Contour Interval|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|base|Base Contour|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|smooth|Smoothing Filter Size|QgsProcessingParameterNumber.Integer|9|True|None|None
+QgsProcessingParameterNumber|tolerance|Tolerance|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Contour File|QgsProcessing.TypeVectorLine|None|False

@@ -1,0 +1,9 @@
+SortLidar
+SortLidar
+LiDAR Tools
+lidartools
+Sorts LiDAR points based on their properties
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#SortLidar
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterString|criteria|Sort Criteria:|None|False|False
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|True

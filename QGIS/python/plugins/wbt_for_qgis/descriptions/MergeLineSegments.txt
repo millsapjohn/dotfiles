@@ -1,0 +1,9 @@
+MergeLineSegments
+MergeLineSegments
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Merges vector line segments into larger features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#MergeLineSegments
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|snap|Snap Tolerance|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

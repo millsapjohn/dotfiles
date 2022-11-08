@@ -1,0 +1,9 @@
+RuggednessIndex
+RuggednessIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the Riley et al.'s (1999) terrain ruggedness index from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#RuggednessIndex
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

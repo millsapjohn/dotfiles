@@ -1,0 +1,9 @@
+ElevationAboveStreamEuclidean
+ElevationAboveStreamEuclidean
+Hydrological Analysis
+hydrologicalanalysis
+Calculates the elevation of cells above the nearest (Euclidean distance) stream cell
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#ElevationAboveStreamEuclidean
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

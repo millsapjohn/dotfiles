@@ -1,0 +1,10 @@
+EmbossFilter
+EmbossFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs an emboss filter on an image, similar to a hillshade operation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#EmbossFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|direction|Direction|n;s;e;w;ne;se;nw;sw|False|0|True
+QgsProcessingParameterNumber|clip|Percent to clip the distribution tails|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

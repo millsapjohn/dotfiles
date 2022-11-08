@@ -1,0 +1,10 @@
+VectorHexBinning
+VectorHexBinning
+GIS Analysis
+gisanalysis
+Hex-bins a set of vector points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#VectorHexBinning
+QgsProcessingParameterFeatureSource|input|Input Base File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|width|Hexagon Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation|Grid Orientation|horizontal;vertical|False|0|True
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

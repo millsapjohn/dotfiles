@@ -1,0 +1,10 @@
+LidarHexBinning
+LidarHexBinning
+LiDAR Tools
+lidartools
+Hex-bins a set of LiDAR points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarHexBinning
+QgsProcessingParameterFile|input|Input Base File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|width|Hexagon Width|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation|Grid Orientation|horizontal;vertical|False|0|True
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

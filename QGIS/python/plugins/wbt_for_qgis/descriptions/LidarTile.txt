@@ -1,0 +1,12 @@
+LidarTile
+LidarTile
+LiDAR Tools
+lidartools
+Tiles a LiDAR LAS file into multiple LAS files
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarTile
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|width|Tile Width|QgsProcessingParameterNumber.Double|1000.0|True|None|None
+QgsProcessingParameterNumber|height|Tile Height|QgsProcessingParameterNumber.Double|1000.0|True|None|None
+QgsProcessingParameterNumber|origin_x|Origin Point X-Coordinate|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|origin_y|Origin Point Y-Coordinate|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|min_points|Minimum Number of Tile Points|QgsProcessingParameterNumber.Integer|2|True|None|None

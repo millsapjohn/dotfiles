@@ -1,0 +1,11 @@
+NewRasterFromBase
+NewRasterFromBase
+Data Tools
+datatools
+Creates a new raster using a base image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#NewRasterFromBase
+QgsProcessingParameterMapLayer|base|Input Base File|None|False|QgsProcessing.TypeRaster;QgsProcessing.TypeVectorAnyGeometry
+QgsProcessingParameterString|value|Constant Value|nodata|False|True
+QgsProcessingParameterEnum|data_type|Data Type|double;float;integer|False|1|True
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

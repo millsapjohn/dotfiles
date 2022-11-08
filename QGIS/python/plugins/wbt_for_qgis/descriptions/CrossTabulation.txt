@@ -1,0 +1,9 @@
+CrossTabulation
+CrossTabulation
+Math and Stats Tools
+mathandstatstools
+Performs a cross-tabulation on two categorical images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#CrossTabulation
+QgsProcessingParameterRasterLayer|input1|Input File 1|None|False
+QgsProcessingParameterRasterLayer|input2|Input File 2|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

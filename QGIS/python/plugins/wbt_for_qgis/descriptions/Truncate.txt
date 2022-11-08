@@ -1,0 +1,9 @@
+Truncate
+Truncate
+Math and Stats Tools
+mathandstatstools
+Truncates the values in a raster to the desired number of decimal places
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Truncate
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|num_decimals|Number of Decimals After Truncation|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

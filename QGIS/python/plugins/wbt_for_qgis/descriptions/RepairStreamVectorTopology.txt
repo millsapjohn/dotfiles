@@ -1,0 +1,9 @@
+RepairStreamVectorTopology
+RepairStreamVectorTopology
+Stream Network Analysis
+streamnetworkanalysis
+This tool resolves topological errors and inconsistencies associated with digitized vector streams
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#RepairStreamVectorTopology
+QgsProcessingParameterFeatureSource|input|Input Vector Lines|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|dist|Snap Distance|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Lines|QgsProcessing.TypeVectorLine|None|False

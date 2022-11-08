@@ -1,0 +1,10 @@
+Viewshed
+Viewshed
+Geomorphometric Analysis
+geomorphometricanalysis
+Identifies the viewshed for a point or set of points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Viewshed
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|stations|Viewing Station Vector File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|height|Station Height (in z units)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

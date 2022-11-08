@@ -1,0 +1,10 @@
+Dissolve
+Dissolve
+GIS Analysis
+gisanalysis
+Removes the interior, or shared, boundaries within a vector polygon coverage
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#Dissolve
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterField|field|Dissolve Field Attribute|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any
+QgsProcessingParameterNumber|snap|Snap Tolerance|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

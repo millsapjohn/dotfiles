@@ -1,0 +1,9 @@
+SplitWithLines
+SplitWithLines
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Splits the lines or polygons in one layer using the lines in another layer
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#SplitWithLines
+QgsProcessingParameterFeatureSource|input|Input Vector Lines or Polygon File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|split|Input Vector Lines File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

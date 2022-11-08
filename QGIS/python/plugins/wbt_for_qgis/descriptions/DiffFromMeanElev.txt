@@ -1,0 +1,10 @@
+DiffFromMeanElev
+DiffFromMeanElev
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates difference from mean elevation (equivalent to a high-pass filter)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#DiffFromMeanElev
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

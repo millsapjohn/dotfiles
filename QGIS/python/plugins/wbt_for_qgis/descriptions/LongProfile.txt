@@ -1,0 +1,11 @@
+LongProfile
+LongProfile
+Stream Network Analysis
+streamnetworkanalysis
+Plots the stream longitudinal profiles for one or more rivers
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#LongProfile
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

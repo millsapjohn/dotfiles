@@ -1,0 +1,11 @@
+SedimentTransportIndex
+SedimentTransportIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the sediment transport index
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#SedimentTransportIndex
+QgsProcessingParameterRasterLayer|sca|Input Specific Contributing Area (SCA) File|None|False
+QgsProcessingParameterRasterLayer|slope|Input Slope File|None|False
+QgsProcessingParameterNumber|sca_exponent|Specific Contributing Area (SCA) Exponent|QgsProcessingParameterNumber.Double|0.4|False|None|None
+QgsProcessingParameterNumber|slope_exponent|Slope Exponent|QgsProcessingParameterNumber.Double|1.3|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

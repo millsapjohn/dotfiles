@@ -1,0 +1,10 @@
+ParallelepipedClassification
+ParallelepipedClassification
+Image Processing Tools - Classification
+imageprocessingtoolsclassification
+Performs a supervised parallelepiped classification using training site polygons and multi-spectral images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_classification.html#ParallelepipedClassification
+QgsProcessingParameterMultipleLayers|inputs|Input Band Images|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|polys|Input Training Polygons|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterString|field|Class Name Field|None|False|False
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

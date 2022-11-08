@@ -1,0 +1,7 @@
+PrintGeoTiffTags
+PrintGeoTiffTags
+Data Tools
+datatools
+Prints the tags within a GeoTIFF
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#PrintGeoTiffTags
+QgsProcessingParameterRasterLayer|input|Input GeoTIFF Raster File|None|False

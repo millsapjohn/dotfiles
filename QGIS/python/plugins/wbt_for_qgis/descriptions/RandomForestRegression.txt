@@ -1,0 +1,14 @@
+RandomForestRegression
+RandomForestRegression
+Machine Learning
+machinelearning
+Performs a random forest regression analysis using training site data and predictor rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#RandomForestRegression
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|training|Input Training Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|field|Response Variable Field Name|None|False|False
+QgsProcessingParameterNumber|n_trees|Number of Trees in Forest|QgsProcessingParameterNumber.Integer|100|True|None|None
+QgsProcessingParameterNumber|min_samples_leaf|Min Number of Samples to be a Leaf|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|min_samples_split|Min Number of Samples Needed to Split Node|QgsProcessingParameterNumber.Integer|2|True|None|None
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

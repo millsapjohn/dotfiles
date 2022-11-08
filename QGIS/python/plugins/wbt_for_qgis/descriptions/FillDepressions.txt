@@ -1,0 +1,11 @@
+FillDepressions
+FillDepressions
+Hydrological Analysis
+hydrologicalanalysis
+Fills all of the depressions in a DEM. Depression breaching should be preferred in most cases
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FillDepressions
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|fix_flats|Fix flat areas?|True|True
+QgsProcessingParameterNumber|flat_increment|Flat increment value (z units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_depth|Maximum depth (z units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

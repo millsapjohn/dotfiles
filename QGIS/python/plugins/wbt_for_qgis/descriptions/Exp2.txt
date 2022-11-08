@@ -1,0 +1,8 @@
+Exp2
+Exp2
+Math and Stats Tools
+mathandstatstools
+Returns the exponential (base 2) of values in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Exp2
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

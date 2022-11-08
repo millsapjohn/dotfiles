@@ -1,0 +1,9 @@
+EdgeProportion
+EdgeProportion
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Calculate the proportion of cells in a raster polygon that are edge cells
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#EdgeProportion
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|output_text|Output a text report?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+Rho8Pointer
+Rho8Pointer
+Hydrological Analysis
+hydrologicalanalysis
+Calculates a stochastic Rho8 flow pointer raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#Rho8Pointer
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Should the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

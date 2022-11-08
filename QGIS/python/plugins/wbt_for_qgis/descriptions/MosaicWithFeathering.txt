@@ -1,0 +1,11 @@
+MosaicWithFeathering
+MosaicWithFeathering
+Image Processing Tools
+imageprocessingtools
+Mosaics two images together using a feathering technique in overlapping areas to reduce edge-effects
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#MosaicWithFeathering
+QgsProcessingParameterRasterLayer|input1|Input File To Modify|None|False
+QgsProcessingParameterRasterLayer|input2|Input Reference File|None|False
+QgsProcessingParameterEnum|method|Resampling Method|nn;bilinear;cc|False|2|True
+QgsProcessingParameterNumber|weight|Distance Weight|QgsProcessingParameterNumber.Double|4.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

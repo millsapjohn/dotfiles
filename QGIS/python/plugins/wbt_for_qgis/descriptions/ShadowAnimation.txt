@@ -1,0 +1,16 @@
+ShadowAnimation
+ShadowAnimation
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool creates an animated GIF of shadows based on an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ShadowAnimation
+QgsProcessingParameterRasterLayer|input|Input Digital Surface Model (DSM) Raster|None|False
+QgsProcessingParameterEnum|palette|DSM Palette|atlas;high_relief;arid;soft;muted;light_quant;purple;viridi;gn_yl;pi_y_g;bl_yl_rd;deep;none|False|0|True
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance (xy units)|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterString|date|Date (DD/MM/YYYY)|21/06/2021|False|True
+QgsProcessingParameterNumber|interval|Time Interval (in minutes)|QgsProcessingParameterNumber.Integer|15|True|None|None
+QgsProcessingParameterString|location|Lat/Long/UTC-offset (e.g. 43.5448/-80.2482/-4)|43.5448/-80.2482/-4|False|True
+QgsProcessingParameterNumber|height|Image Height (in pixels)|QgsProcessingParameterNumber.Integer|600|True|None|None
+QgsProcessingParameterNumber|delay|Delay (in milliseconds)|QgsProcessingParameterNumber.Integer|250|True|None|None
+QgsProcessingParameterString|label|Label text (blank for none)|None|False|True
+QgsProcessingParameterFileDestination|output|Output File (*.html)|HTML files (*.html *.HTML)|None|False

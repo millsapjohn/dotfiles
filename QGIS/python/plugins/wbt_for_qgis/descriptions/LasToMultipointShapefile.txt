@@ -1,0 +1,7 @@
+LasToMultipointShapefile
+LasToMultipointShapefile
+LiDAR Tools
+lidartools
+Converts one or more LAS files into MultipointZ vector Shapefiles. When the input parameter is not specified, the tool grids all LAS files contained within the working directory
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LasToMultipointShapefile
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)

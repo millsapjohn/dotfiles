@@ -1,0 +1,9 @@
+LaplacianOfGaussianFilter
+LaplacianOfGaussianFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a Laplacian-of-Gaussian (LoG) filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#LaplacianOfGaussianFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|sigma|Standard Deviation (Pixels)|QgsProcessingParameterNumber.Double|0.75|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,9 @@
+LidarColourize
+LidarColourize
+LiDAR Tools
+lidartools
+Adds the red-green-blue colour fields of a LiDAR (LAS) file based on an input image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarColourize
+QgsProcessingParameterFile|in_lidar|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterRasterLayer|in_image|Input Colour Image File|None|False
+QgsProcessingParameterFileDestination|output|Output LiDAR File|LiDAR files (*.las *.laz *.zlidar)|None|False

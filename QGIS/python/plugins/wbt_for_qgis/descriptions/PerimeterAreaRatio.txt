@@ -1,0 +1,7 @@
+PerimeterAreaRatio
+PerimeterAreaRatio
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Calculates the perimeter-area ratio of vector polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#PerimeterAreaRatio
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

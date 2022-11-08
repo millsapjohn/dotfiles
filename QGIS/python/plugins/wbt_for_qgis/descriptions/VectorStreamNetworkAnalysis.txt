@@ -1,0 +1,11 @@
+VectorStreamNetworkAnalysis
+VectorStreamNetworkAnalysis
+Stream Network Analysis
+streamnetworkanalysis
+This tool performs common stream network analysis operations on an input vector stream file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#VectorStreamNetworkAnalysis
+QgsProcessingParameterFeatureSource|streams|Input Streams Vector|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterNumber|cutting_height|Maximum Ridge-cutting Height (z units)|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterNumber|snap|Snap Distance|QgsProcessingParameterNumber.Double|0.1|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Lines|QgsProcessing.TypeVectorLine|None|False

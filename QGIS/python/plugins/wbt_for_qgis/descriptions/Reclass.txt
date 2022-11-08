@@ -1,0 +1,10 @@
+Reclass
+Reclass
+GIS Analysis
+gisanalysis
+Reclassifies the values in a raster image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#Reclass
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterString|reclass_vals|Reclass Values (new value; from value; to less than)|None|False|False
+QgsProcessingParameterBoolean|assign_mode|Operate in assign mode? (i.e. Reclass data are pair values rather than triplets)|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

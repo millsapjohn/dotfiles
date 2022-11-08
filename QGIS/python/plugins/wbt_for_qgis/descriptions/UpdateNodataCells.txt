@@ -1,0 +1,9 @@
+UpdateNodataCells
+UpdateNodataCells
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Replaces the NoData values in an input raster with the corresponding values contained in a second update layer
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#UpdateNodataCells
+QgsProcessingParameterRasterLayer|input1|Input File 1|None|False
+QgsProcessingParameterRasterLayer|input2|Input File 2 (Update Layer)|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

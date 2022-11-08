@@ -1,0 +1,8 @@
+FloodOrder
+FloodOrder
+Hydrological Analysis
+hydrologicalanalysis
+Assigns each DEM grid cell its order in the sequence of inundations that are encountered during a search starting from the edges, moving inward at increasing elevations
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FloodOrder
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

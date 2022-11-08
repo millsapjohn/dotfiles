@@ -1,0 +1,11 @@
+SlopeVsAspectPlot
+SlopeVsAspectPlot
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool creates a slope-aspect relation plot from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#SlopeVsAspectPlot
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterNumber|bin_size|Aspect Bin Size (degrees)|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|min_slope|Minimum Slope (degrees)|QgsProcessingParameterNumber.Double|0.1|True|None|None
+QgsProcessingParameterNumber|zfactor|Z-factor|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterFileDestination|output|Output File (*.html)|HTML files (*.html *.HTML)|None|False

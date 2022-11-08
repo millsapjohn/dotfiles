@@ -1,0 +1,12 @@
+LeeSigmaFilter
+LeeSigmaFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a Lee (Sigma) smoothing filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#LeeSigmaFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|sigma|Sigma|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterNumber|m|M-value|QgsProcessingParameterNumber.Double|5.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

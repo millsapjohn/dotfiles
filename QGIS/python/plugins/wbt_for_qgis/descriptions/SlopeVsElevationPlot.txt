@@ -1,0 +1,9 @@
+SlopeVsElevationPlot
+SlopeVsElevationPlot
+Geomorphometric Analysis
+geomorphometricanalysis
+Creates a slope vs. elevation plot for one or more DEMs
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#SlopeVsElevationPlot
+QgsProcessingParameterMultipleLayers|inputs|Input DEM Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterMultipleLayers|watershed|Input Watershed Files (optional)|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

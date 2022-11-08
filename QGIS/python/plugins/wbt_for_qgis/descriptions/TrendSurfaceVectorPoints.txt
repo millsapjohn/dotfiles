@@ -1,0 +1,11 @@
+TrendSurfaceVectorPoints
+TrendSurfaceVectorPoints
+Math and Stats Tools
+mathandstatstools
+Estimates a trend surface from vector points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#TrendSurfaceVectorPoints
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterNumber|order|Polynomial Order|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,13 @@
+BreachDepressionsLeastCost
+BreachDepressionsLeastCost
+Hydrological Analysis
+hydrologicalanalysis
+Breaches the depressions in a DEM using a least-cost pathway method
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#BreachDepressionsLeastCost
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|dist|Maximum Search Distance (cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|max_cost|Maximum Breach Cost (z units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|min_dist|Minimize breach distances?|True|True
+QgsProcessingParameterNumber|flat_increment|Flat increment value (z units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|fill|Fill unbreached depressions?|True|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

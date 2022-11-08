@@ -1,0 +1,10 @@
+Closing
+Closing
+Image Processing Tools
+imageprocessingtools
+A closing is a mathematical morphology operation involving an erosion (min filter) of a dilation (max filter) set
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#Closing
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filterx|Filter X-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|filtery|Filter Y-Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

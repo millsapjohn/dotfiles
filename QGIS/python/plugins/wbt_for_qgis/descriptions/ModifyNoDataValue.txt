@@ -1,0 +1,8 @@
+ModifyNoDataValue
+ModifyNoDataValue
+Data Tools
+datatools
+Converts nodata values in a raster to zero
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#ModifyNoDataValue
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|new_value|New NoData Value|QgsProcessingParameterNumber.Double|-32768.0|True|None|None

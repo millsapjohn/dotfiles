@@ -1,0 +1,9 @@
+CostAllocation
+CostAllocation
+GIS Analysis - Distance Tools
+gisanalysisdistancetools
+Identifies the source cell to which each grid cell is connected by a least-cost pathway in a cost-distance analysis
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_distance_tools.html#CostAllocation
+QgsProcessingParameterRasterLayer|source|Input Source File|None|False
+QgsProcessingParameterRasterLayer|backlink|Input Backlink File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

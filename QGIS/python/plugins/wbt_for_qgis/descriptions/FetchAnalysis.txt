@@ -1,0 +1,10 @@
+FetchAnalysis
+FetchAnalysis
+Geomorphometric Analysis
+geomorphometricanalysis
+Performs an analysis of fetch or upwind distance to an obstacle
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#FetchAnalysis
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|azimuth|Azimuth (degrees)|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|hgt_inc|Height Increment Value|QgsProcessingParameterNumber.Double|0.05|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

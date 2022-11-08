@@ -1,0 +1,10 @@
+SplitLidar
+SplitLidar
+LiDAR Tools
+lidartools
+This tool splits LiDAR points up into a series of new files based on their properties
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#SplitLidar
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|criterion|Split Criterion|num_pts;x;y;z;intensity;class;user_data;point_source_id;scan_angle;time|False|0|False
+QgsProcessingParameterNumber|interval|Interval|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|min_pts|Minimum Number of Points|QgsProcessingParameterNumber.Integer|5|True|None|None

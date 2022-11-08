@@ -1,0 +1,9 @@
+Centroid
+Centroid
+GIS Analysis
+gisanalysis
+Calculates the centroid, or average location, of raster polygon objects
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#Centroid
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|text_output|Output text?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

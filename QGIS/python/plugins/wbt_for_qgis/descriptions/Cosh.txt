@@ -1,0 +1,8 @@
+Cosh
+Cosh
+Math and Stats Tools
+mathandstatstools
+Returns the hyperbolic cosine (cosh) of each values in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Cosh
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

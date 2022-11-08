@@ -1,0 +1,10 @@
+FilterRasterFeaturesByArea
+FilterRasterFeaturesByArea
+GIS Analysis
+gisanalysis
+Removes small-area features from a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#FilterRasterFeaturesByArea
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|threshold|Area Threshold (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterEnum|background|Background Value|zero;nodata|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

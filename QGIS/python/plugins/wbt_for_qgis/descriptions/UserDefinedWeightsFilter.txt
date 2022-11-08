@@ -1,0 +1,11 @@
+UserDefinedWeightsFilter
+UserDefinedWeightsFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a user-defined weights filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#UserDefinedWeightsFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFile|weights|Input Weights File|QgsProcessingParameterFile.File|csv|None|False
+QgsProcessingParameterEnum|center|Kernel Center|center;upper-left;upper-right;lower-left;lower-right|False|0|True
+QgsProcessingParameterBoolean|normalize|Normalize kernel weights?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

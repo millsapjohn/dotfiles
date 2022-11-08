@@ -1,0 +1,11 @@
+MinMaxContrastStretch
+MinMaxContrastStretch
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Performs a min-max contrast stretch on an input greytone image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#MinMaxContrastStretch
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|min_val|Lower Tail Clip Value|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|max_val|Upper Tail Clip Value|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|num_tones|Number of Tones|QgsProcessingParameterNumber.Integer|256|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

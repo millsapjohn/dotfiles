@@ -1,0 +1,11 @@
+LidarClassifySubset
+LidarClassifySubset
+LiDAR Tools
+lidartools
+Classifies the values in one LiDAR point cloud that correspond with points in a subset cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarClassifySubset
+QgsProcessingParameterFile|base|Input Base LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFile|subset|Input Subset LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|subset_class|Subset Point Class Value|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|nonsubset_class|Non-Subset Point Class Value (Optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterFileDestination|output|Output LiDAR File|LiDAR files (*.las *.laz *.zlidar)|None|False

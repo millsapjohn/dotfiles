@@ -1,0 +1,13 @@
+ColourizeBasedOnPointReturns
+ColourizeBasedOnPointReturns
+LiDAR Tools
+lidartools
+Sets the RGB values of a LiDAR point cloud based on the point returns
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ColourizeBasedOnPointReturns
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|intensity_blending|Intensity Blending Amount (0-100%):|QgsProcessingParameterNumber.Double|50.0|True|None|None
+QgsProcessingParameterString|only|Only Return Colour|(230,214,170)|False|True
+QgsProcessingParameterString|first|First Return Colour|(0,140,0)|False|True
+QgsProcessingParameterString|intermediate|Intermediate Return Colour|(255,0,255)|False|True
+QgsProcessingParameterString|last|Last Return Colour|(0,0,255)|False|True
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|True

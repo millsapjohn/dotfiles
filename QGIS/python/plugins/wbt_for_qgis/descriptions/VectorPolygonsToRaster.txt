@@ -1,0 +1,12 @@
+VectorPolygonsToRaster
+VectorPolygonsToRaster
+Data Tools
+datatools
+Converts a vector containing polygons into a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#VectorPolygonsToRaster
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterField|field|Field Name|FID|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|nodata|Background value is NoData?|True|True
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

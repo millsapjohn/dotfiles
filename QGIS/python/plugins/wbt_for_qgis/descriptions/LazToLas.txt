@@ -1,0 +1,8 @@
+LazToLas
+LazToLas
+LiDAR Tools
+lidartools
+This tool converts one or more LAZ files into the LAS forma
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LazToLas
+QgsProcessingParameterFile|input|Input LAZ File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterRasterDestination|output|Output LAS File|None|True

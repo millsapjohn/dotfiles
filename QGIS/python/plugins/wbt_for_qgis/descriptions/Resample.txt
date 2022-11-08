@@ -1,0 +1,11 @@
+Resample
+Resample
+Image Processing Tools
+imageprocessingtools
+Resamples one or more input images into a destination image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#Resample
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterEnum|method|Resampling Method|nn;bilinear;cc|False|2|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

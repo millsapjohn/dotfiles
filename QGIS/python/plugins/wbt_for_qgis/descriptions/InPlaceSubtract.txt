@@ -1,0 +1,8 @@
+InPlaceSubtract
+InPlaceSubtract
+Math and Stats Tools
+mathandstatstools
+Performs an in-place subtraction operation (input1 -= input2)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#InPlaceSubtract
+QgsProcessingParameterRasterLayer|input1|Input Raster File|None|False
+QgsProcessingParameterRasterLayer|input2|Input File Or Constant Value|None|False

@@ -1,0 +1,8 @@
+HighestPosition
+HighestPosition
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Identifies the stack position of the maximum value within a raster stack on a cell-by-cell basis
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#HighestPosition
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

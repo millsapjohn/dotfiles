@@ -1,0 +1,10 @@
+ExtractStreams
+ExtractStreams
+Stream Network Analysis
+streamnetworkanalysis
+Extracts stream grid cells from a flow accumulation raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#ExtractStreams
+QgsProcessingParameterRasterLayer|flow_accum|Input D8 Flow Accumulation File|None|False
+QgsProcessingParameterNumber|threshold|Channelization Threshold|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|zero_background|Should a background value of zero be used?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

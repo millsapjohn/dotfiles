@@ -1,0 +1,16 @@
+LidarContour
+LidarContour
+LiDAR Tools
+lidartools
+This tool creates a vector contour coverage from an input LiDAR point file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarContour
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|interval|Contour Interval|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|smooth|Smoothing Filter Size|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterEnum|parameter|Interpolation Parameter|elevation;intensity;user_data|False|0|True
+QgsProcessingParameterEnum|returns|Point Returns Included|all;last;first|False|0|True
+QgsProcessingParameterString|exclude_cls|Exclusion Classes (0-18, based on LAS spec; e.g. 3,4,5,6,7)|None|False|True
+QgsProcessingParameterNumber|minz|Minimum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|maxz|Maximum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_triangle_edge_length|Maximum Triangle Length (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector Lines|QgsProcessing.TypeVectorLine|None|True

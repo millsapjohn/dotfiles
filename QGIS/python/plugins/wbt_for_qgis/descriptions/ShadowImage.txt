@@ -1,0 +1,13 @@
+ShadowImage
+ShadowImage
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool creates a raster of shadow areas based on an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ShadowImage
+QgsProcessingParameterRasterLayer|input|Input Digital Surface Model (DSM) Raster|None|False
+QgsProcessingParameterEnum|palette|DSM Palette|atlas;high_relief;arid;soft;muted;light_quant;purple;viridis;gn_yl;pi_y_g;bl_yl_rd;deep;none|False|3|True
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance (xy units)|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterString|date|Date (DD/MM/YYYY)|21/06/2021|False|True
+QgsProcessingParameterString|time|Time (HH::MM, e.g. 03:15AM or 14:30)|13:00|False|True
+QgsProcessingParameterString|location|Lat/Long/UTC-offset (e.g. 43.5448/-80.2482/-4)|43.5448/-80.2482/-4|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

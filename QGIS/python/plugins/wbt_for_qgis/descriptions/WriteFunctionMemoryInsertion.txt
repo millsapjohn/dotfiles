@@ -1,0 +1,10 @@
+WriteFunctionMemoryInsertion
+WriteFunctionMemoryInsertion
+Image Processing Tools
+imageprocessingtools
+Performs a write function memory insertion for single-band multi-date change detection
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#WriteFunctionMemoryInsertion
+QgsProcessingParameterRasterLayer|input1|First Date Input File|None|False
+QgsProcessingParameterRasterLayer|input2|Second Date Input File|None|False
+QgsProcessingParameterRasterLayer|input3|Third Date Input File (Optional)|None|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

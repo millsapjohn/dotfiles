@@ -1,0 +1,10 @@
+Union
+Union
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Splits vector layers at their overlaps, creating a layer containing all the portions from both input and overlay layers
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#Union
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|overlay|Input Overlay Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap|Snap Tolerance|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

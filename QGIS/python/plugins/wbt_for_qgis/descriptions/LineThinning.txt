@@ -1,0 +1,8 @@
+LineThinning
+LineThinning
+Image Processing Tools
+imageprocessingtools
+Performs line thinning a on Boolean raster image; intended to be used with the RemoveSpurs tool
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#LineThinning
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

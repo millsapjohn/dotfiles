@@ -1,0 +1,9 @@
+PickFromList
+PickFromList
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Outputs the value from a raster stack specified by a position raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#PickFromList
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterLayer|pos_input|Input Position File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

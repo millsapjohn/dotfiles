@@ -1,0 +1,9 @@
+GammaCorrection
+GammaCorrection
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Performs a gamma correction on an input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#GammaCorrection
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|gamma|Gamma Value|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

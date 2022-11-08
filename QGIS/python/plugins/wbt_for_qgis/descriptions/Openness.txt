@@ -1,0 +1,10 @@
+Openness
+Openness
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool calculates the topographic openness index from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Openness
+QgsProcessingParameterRasterLayer|input|Input Raster DEM|None|False
+QgsProcessingParameterNumber|dist|Search Distance (grid cells)|QgsProcessingParameterNumber.Integer|20|True|None|None
+QgsProcessingParameterRasterDestination|pos_output|Positive Openness Output Raster|None|False
+QgsProcessingParameterRasterDestination|neg_output|Negative Openness Output Raster|None|False

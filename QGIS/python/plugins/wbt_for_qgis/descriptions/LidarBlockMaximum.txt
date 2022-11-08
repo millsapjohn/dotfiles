@@ -1,0 +1,9 @@
+LidarBlockMaximum
+LidarBlockMaximum
+LiDAR Tools
+lidartools
+Creates a block-maximum raster from an input LAS file. When the input/output parameters are not specified, the tool grids all LAS files contained within the working directory
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarBlockMaximum
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|True

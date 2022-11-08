@@ -1,0 +1,9 @@
+RadiusOfGyration
+RadiusOfGyration
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Calculates the distance of cells from their polygon's centroid
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#RadiusOfGyration
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|text_output|Output text?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

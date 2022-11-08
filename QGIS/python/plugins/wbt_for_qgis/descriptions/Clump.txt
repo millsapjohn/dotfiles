@@ -1,0 +1,10 @@
+Clump
+Clump
+GIS Analysis
+gisanalysis
+Groups cells that form discrete areas, assigning them unique identifiers
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#Clump
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|diag|Include diagonal connections?|True|False
+QgsProcessingParameterBoolean|zero_back|Treat zero values as background?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

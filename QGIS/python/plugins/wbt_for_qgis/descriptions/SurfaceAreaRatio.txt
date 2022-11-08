@@ -1,0 +1,8 @@
+SurfaceAreaRatio
+SurfaceAreaRatio
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a the surface area ratio of each grid cell in an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#SurfaceAreaRatio
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

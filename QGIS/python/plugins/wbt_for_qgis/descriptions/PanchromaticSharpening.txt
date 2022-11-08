@@ -1,0 +1,13 @@
+PanchromaticSharpening
+PanchromaticSharpening
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Increases the spatial resolution of image data by combining multispectral bands with panchromatic data
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#PanchromaticSharpening
+QgsProcessingParameterRasterLayer|red|Input Red Band File (optional; only if colour-composite not specified)|None|True
+QgsProcessingParameterRasterLayer|green|Input Green Band File (optional; only if colour-composite not specified)|None|True
+QgsProcessingParameterRasterLayer|blue|Input Blue Band File (optional; only if colour-composite not specified)|None|True
+QgsProcessingParameterRasterLayer|composite|Input Colour-Composite Image File (optional; only if individual bands not specified)|None|True
+QgsProcessingParameterRasterLayer|pan|Input Panchromatic Band File|None|False
+QgsProcessingParameterEnum|method|Pan-Sharpening Method|brovey;ihs|False|0|True
+QgsProcessingParameterRasterDestination|output|Output Colour Composite File|None|False

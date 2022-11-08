@@ -1,0 +1,14 @@
+FlowAccumulationFullWorkflow
+FlowAccumulationFullWorkflow
+Hydrological Analysis
+hydrologicalanalysis
+Resolves all of the depressions in a DEM, outputting a breached DEM, an aspect-aligned non-divergent flow pointer, and a flow accumulation raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FlowAccumulationFullWorkflow
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|Cells;Specific Contributing Area;Catchment Area|False|1|True
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|True
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterRasterDestination|out_dem|Output DEM File|None|False
+QgsProcessingParameterRasterDestination|out_pntr|Output Flow Pointer File|None|False
+QgsProcessingParameterRasterDestination|out_accum|Output Flow Accumulation File|None|False

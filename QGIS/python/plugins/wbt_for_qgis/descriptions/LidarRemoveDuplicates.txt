@@ -1,0 +1,9 @@
+LidarRemoveDuplicates
+LidarRemoveDuplicates
+LiDAR Tools
+lidartools
+Removes duplicate points from a LiDAR data set
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarRemoveDuplicates
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterBoolean|include_z|Include z-values in point comparison?|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

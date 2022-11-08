@@ -1,0 +1,9 @@
+LidarEigenvalueFeatures
+LidarEigenvalueFeatures
+LiDAR Tools
+lidartools
+Calculate eigenvalue-based metrics from a LiDAR point cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarEigenvalueFeatures
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|num_neighbours|Number of Neighbours:|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterNumber|radius|Search Distance:|QgsProcessingParameterNumber.Double|None|True|None|None

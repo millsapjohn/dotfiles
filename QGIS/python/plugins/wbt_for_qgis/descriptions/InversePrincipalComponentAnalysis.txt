@@ -1,0 +1,8 @@
+InversePrincipalComponentAnalysis
+InversePrincipalComponentAnalysis
+Math and Stats Tools
+mathandstatstools
+This tool performs an inverse principal component analysis on a series of input component images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#InversePrincipalComponentAnalysis
+QgsProcessingParameterMultipleLayers|inputs|Input PCA Component Images|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFileDestination|report|Input PCA Report File|HTML files (*.html *.HTML)|None|False

@@ -1,0 +1,9 @@
+FilterLidar
+FilterLidar
+LiDAR Tools
+lidartools
+This sorts the points in a LiDAR file by the GPS time
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#FilterLidar
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterString|statement|Statement:|None|False|False
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|False

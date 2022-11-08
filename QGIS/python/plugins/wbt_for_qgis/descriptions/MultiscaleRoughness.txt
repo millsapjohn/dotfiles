@@ -1,0 +1,12 @@
+MultiscaleRoughness
+MultiscaleRoughness
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates surface roughness over a range of spatial scales
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MultiscaleRoughness
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|min_scale|Minimum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|max_scale|Maximum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|step|Step Size|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterRasterDestination|out_mag|Output Roughness Magnitude File|None|False
+QgsProcessingParameterRasterDestination|out_scale|Output Roughness Scale File|None|False

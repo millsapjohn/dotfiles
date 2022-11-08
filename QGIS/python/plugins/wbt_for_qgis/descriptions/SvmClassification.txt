@@ -1,0 +1,15 @@
+SvmClassification
+SvmClassification
+Machine Learning
+machinelearning
+Performs an SVM binary classification using training site polygons/points and multiple input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#SvmClassification
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|scaling|Scaling Method|None;Normalize;Standardize|False|1|True
+QgsProcessingParameterFeatureSource|training|Input Training Polygons/Points|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterString|field|Class Field Name|None|False|False
+QgsProcessingParameterNumber|c|c-Value|QgsProcessingParameterNumber.Double|200.0|True|None|None
+QgsProcessingParameterNumber|gamma|Kernel Gamma|QgsProcessingParameterNumber.Double|50.0|True|None|None
+QgsProcessingParameterNumber|tolerance|Tolerance|QgsProcessingParameterNumber.Double|0.1|True|None|None
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

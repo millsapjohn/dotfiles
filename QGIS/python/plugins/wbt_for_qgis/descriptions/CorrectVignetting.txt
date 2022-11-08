@@ -1,0 +1,12 @@
+CorrectVignetting
+CorrectVignetting
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Corrects the darkening of images towards corners
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#CorrectVignetting
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFeatureSource|pp|Input Principal Point File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|focal_length|Camera Focal Length (mm)|QgsProcessingParameterNumber.Double|304.8|True|None|None
+QgsProcessingParameterNumber|image_width|Distance Between Left-Right Edges (mm)|QgsProcessingParameterNumber.Double|228.6|True|None|None
+QgsProcessingParameterNumber|n|n Parameter|QgsProcessingParameterNumber.Double|4.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

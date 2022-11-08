@@ -1,0 +1,10 @@
+InsertDams
+InsertDams
+Hydrological Analysis
+hydrologicalanalysis
+Calculates the impoundment size resulting from damming a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#InsertDams
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|dam_pts|Input Dam Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|damlength|Max dam length (grid cells)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

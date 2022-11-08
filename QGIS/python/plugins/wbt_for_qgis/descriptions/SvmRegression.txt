@@ -1,0 +1,15 @@
+SvmRegression
+SvmRegression
+Machine Learning
+machinelearning
+Performs a supervised SVM regression analysis using training site points and predictor rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#SvmRegression
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|scaling|Scaling Method|None;Normalize;Standardize|False|1|True
+QgsProcessingParameterFeatureSource|training|Input Training Polygons/Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|field|Class Field Name|None|False|False
+QgsProcessingParameterNumber|c|c-Value|QgsProcessingParameterNumber.Double|50.0|True|None|None
+QgsProcessingParameterNumber|eps|Epsilon Value|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterNumber|gamma|Kernel Gamma|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

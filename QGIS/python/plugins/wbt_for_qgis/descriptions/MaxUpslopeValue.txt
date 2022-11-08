@@ -1,0 +1,9 @@
+MaxUpslopeValue
+MaxUpslopeValue
+Hydrological Analysis
+hydrologicalanalysis
+This tool calculates the maximum upslope value from an input values raster along flowpaths
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#MaxUpslopeValue
+QgsProcessingParameterRasterLayer|dem|Input DEM|None|False
+QgsProcessingParameterRasterLayer|values|Values Raster File|None|False
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

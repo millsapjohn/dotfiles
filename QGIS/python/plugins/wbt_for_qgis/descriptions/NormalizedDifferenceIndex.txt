@@ -1,0 +1,11 @@
+NormalizedDifferenceIndex
+NormalizedDifferenceIndex
+Image Processing Tools
+imageprocessingtools
+Calculate a normalized-difference index (NDI) from two bands of multispectral image data
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#NormalizedDifferenceIndex
+QgsProcessingParameterRasterLayer|input1|Input 1 File|None|False
+QgsProcessingParameterRasterLayer|input2|Input 2 File|None|False
+QgsProcessingParameterNumber|clip|Distribution Tail Clip Amount (%)|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|correction|Correction value|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

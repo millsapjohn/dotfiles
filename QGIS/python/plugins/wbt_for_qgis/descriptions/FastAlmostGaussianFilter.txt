@@ -1,0 +1,9 @@
+FastAlmostGaussianFilter
+FastAlmostGaussianFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a fast approximate Gaussian filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#FastAlmostGaussianFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|sigma|Standard Deviation (pixels)|QgsProcessingParameterNumber.Double|1.8|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

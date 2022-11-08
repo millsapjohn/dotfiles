@@ -1,0 +1,17 @@
+TimeInDaylight
+TimeInDaylight
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the proportion of time a location is not within an area of shadow
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#TimeInDaylight
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|az_fraction|Azimuth Fraction|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance|QgsProcessingParameterNumber.Double|100.0|False|None|None
+QgsProcessingParameterNumber|lat|Centre Point Latitude|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|long|Centre Point Longitude|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterString|utc_offset|UTC Offset (e.g. -04:00, +06:00)|00:00|False|True
+QgsProcessingParameterNumber|start_day|Start Day Of The Year (1-365)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|end_day|End Day Of The Year (1-365)|QgsProcessingParameterNumber.Integer|365|True|None|None
+QgsProcessingParameterString|start_time|Starting Hour (24-hour time: HH:MM:SS e.g. 05:00:00)|00:00:00|False|True
+QgsProcessingParameterString|end_time|Ending Hour (24-hour time: HH:MM:SS e.g. 21:00:00)|23:59:59|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

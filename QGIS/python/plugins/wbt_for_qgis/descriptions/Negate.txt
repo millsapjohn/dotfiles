@@ -1,0 +1,8 @@
+Negate
+Negate
+Math and Stats Tools
+mathandstatstools
+Changes the sign of values in a raster or the 0-1 values of a Boolean raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Negate
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

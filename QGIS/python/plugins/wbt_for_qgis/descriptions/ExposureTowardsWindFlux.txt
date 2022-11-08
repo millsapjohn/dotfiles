@@ -1,0 +1,11 @@
+ExposureTowardsWindFlux
+ExposureTowardsWindFlux
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool evaluates hydrologic connectivity within a DE
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ExposureTowardsWindFlux
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterNumber|azimuth|Wind Azimuth (in degrees)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

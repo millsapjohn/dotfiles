@@ -1,0 +1,8 @@
+Polygonize
+Polygonize
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Creates a polygon layer from two or more intersecting line features contained in one or more input vector line files
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#Polygonize
+QgsProcessingParameterMultipleLayers|inputs|Input Vector Lines File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

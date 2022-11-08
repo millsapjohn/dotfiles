@@ -1,0 +1,9 @@
+TrendSurface
+TrendSurface
+Math and Stats Tools
+mathandstatstools
+Estimates the trend surface of an input raster file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#TrendSurface
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|order|Polynomial Order|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

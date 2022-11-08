@@ -1,0 +1,16 @@
+GaussianScaleSpace
+GaussianScaleSpace
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool uses the fast Gaussian approximation algorithm to produce scaled land-surface parameter measurements from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#GaussianScaleSpace
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterFeatureSource|points|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|True
+QgsProcessingParameterNumber|sigma|Starting Scale|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|step|Step Size|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|num_steps|Number of Steps|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterEnum|lsp|Land-surface Parameter to Calculate|AnisotropyLTP;Aspect;DiffMeanElev;Eastness;Elevation;Hillshade;MeanCurvature;Northness;PlanCurvature;ProfileCurvature;Ruggedness;Slope;TanCurvature;TotalCurvature|False|11|True
+QgsProcessingParameterNumber|z_factor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Land-surface Parameter Raster File|None|False
+QgsProcessingParameterRasterDestination|output_zscore|Output z-Score Raster File|None|False
+QgsProcessingParameterRasterDestination|output_scale|Output Scale Raster File|None|False

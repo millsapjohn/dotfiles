@@ -1,0 +1,8 @@
+RasterCalculator
+RasterCalculator
+Math and Stats Tools
+mathandstatstools
+This tool performs a complex mathematical operations on one or more input raster images on a cell-to-cell basis
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#RasterCalculator
+QgsProcessingParameterString|statement|Statement:|None|False|False
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

@@ -1,0 +1,10 @@
+EdgeContamination
+EdgeContamination
+Hydrological Analysis
+hydrologicalanalysis
+This tool identifies grid cells within an input DEM that may be impacted by edge contamination for hydrological applications
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#EdgeContamination
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterEnum|flow_type|Flow Type|d8;mfd;dinf|False|1|True
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

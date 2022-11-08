@@ -1,0 +1,9 @@
+BalanceContrastEnhancement
+BalanceContrastEnhancement
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Performs a balance contrast enhancement on a colour-composite image of multispectral data
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#BalanceContrastEnhancement
+QgsProcessingParameterRasterLayer|input|Input Colour Composite Image File|None|False
+QgsProcessingParameterNumber|band_mean|Band Mean Value|QgsProcessingParameterNumber.Double|100.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

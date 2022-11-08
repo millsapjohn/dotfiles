@@ -1,0 +1,8 @@
+UpslopeDepressionStorage
+UpslopeDepressionStorage
+Hydrological Analysis
+hydrologicalanalysis
+Estimates the average upslope depression storage depth
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#UpslopeDepressionStorage
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

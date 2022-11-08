@@ -1,0 +1,10 @@
+HorizonAngle
+HorizonAngle
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates horizon angle (maximum upwind slope) for each grid cell in an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#HorizonAngle
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|azimuth|Azimuth|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance|QgsProcessingParameterNumber.Double|100.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

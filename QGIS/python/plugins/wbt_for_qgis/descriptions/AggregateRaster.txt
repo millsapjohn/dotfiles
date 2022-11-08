@@ -1,0 +1,10 @@
+AggregateRaster
+AggregateRaster
+GIS Analysis
+gisanalysis
+Aggregates a raster to a lower resolution
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#AggregateRaster
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|agg_factor|Aggregation Factor (pixels)|QgsProcessingParameterNumber.Integer|2|True|None|None
+QgsProcessingParameterEnum|type|Aggregation Type|mean;sum;maximum;minimum;range|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

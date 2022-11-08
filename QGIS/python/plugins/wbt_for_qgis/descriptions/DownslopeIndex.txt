@@ -1,0 +1,10 @@
+DownslopeIndex
+DownslopeIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the Hjerdt et al. (2004) downslope index
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#DownslopeIndex
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|drop|Verical Drop|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterEnum|out_type|Output Type|tangent;degrees;radians;distance|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

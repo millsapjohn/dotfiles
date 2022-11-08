@@ -1,0 +1,9 @@
+TravellingSalesmanProblem
+TravellingSalesmanProblem
+GIS Analysis
+gisanalysis
+This tool finds approximate solutions to travelling salesman problems, the goal of which is to identify the shortest route connecting a set of locations
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#TravellingSalesmanProblem
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|duration|Max Duration|QgsProcessingParameterNumber.Integer|60|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Lines|QgsProcessing.TypeVectorLine|None|False

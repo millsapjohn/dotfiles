@@ -1,0 +1,9 @@
+MaxBranchLength
+MaxBranchLength
+Geomorphometric Analysis
+geomorphometricanalysis
+Lindsay and Seibert's (2013) branch length index is used to map drainage divides or ridge lines
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MaxBranchLength
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

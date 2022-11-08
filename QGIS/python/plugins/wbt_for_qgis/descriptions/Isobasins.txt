@@ -1,0 +1,10 @@
+Isobasins
+Isobasins
+Hydrological Analysis
+hydrologicalanalysis
+Divides a landscape into nearly equal sized drainage basins (i.e. watersheds)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#Isobasins
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|size|Target Basin Size (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterBoolean|connections|Output basin upstream-downstream connections?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

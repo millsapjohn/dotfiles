@@ -1,0 +1,13 @@
+LidarElevationSlice
+LidarElevationSlice
+LiDAR Tools
+lidartools
+Outputs all of the points within a LiDAR (LAS) point file that lie between a specified elevation range
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarElevationSlice
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|minz|Minimum Elevation Value|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|maxz|Maximum Elevation Value|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|class|Retain but reclass points outside the specified elevation range?|False|True
+QgsProcessingParameterNumber|inclassval|Class Value Assigned to Points Within Range (Optional)|QgsProcessingParameterNumber.Integer|2|True|None|None
+QgsProcessingParameterNumber|outclassval|Class Value Assigned to Points Outside Range (Optional)|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

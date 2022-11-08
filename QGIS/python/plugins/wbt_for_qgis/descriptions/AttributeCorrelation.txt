@@ -1,0 +1,8 @@
+AttributeCorrelation
+AttributeCorrelation
+Math and Stats Tools
+mathandstatstools
+Performs a correlation analysis on attribute fields from a vector database
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#AttributeCorrelation
+QgsProcessingParameterFeatureSource|input|Input File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|True

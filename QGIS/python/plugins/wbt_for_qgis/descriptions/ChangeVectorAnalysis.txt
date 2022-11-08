@@ -1,0 +1,10 @@
+ChangeVectorAnalysis
+ChangeVectorAnalysis
+Image Processing Tools
+imageprocessingtools
+Performs a change vector analysis on a two-date multi-spectral dataset
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#ChangeVectorAnalysis
+QgsProcessingParameterMultipleLayers|date1|Earlier Date Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterMultipleLayers|date2|Later Date Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|magnitude|Output Vector Magnitude File|None|False
+QgsProcessingParameterRasterDestination|direction|Output Vector Direction File|None|False

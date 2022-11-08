@@ -1,0 +1,13 @@
+FD8FlowAccumulation
+FD8FlowAccumulation
+Hydrological Analysis
+hydrologicalanalysis
+Calculates an FD8 flow accumulation raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FD8FlowAccumulation
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|cells;specific contributing area;catchment area|False|1|True
+QgsProcessingParameterNumber|exponent|Exponent Parameter|QgsProcessingParameterNumber.Double|1.1|True|None|None
+QgsProcessingParameterNumber|threshold|Convergence Threshold (grid cells; blank for none)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

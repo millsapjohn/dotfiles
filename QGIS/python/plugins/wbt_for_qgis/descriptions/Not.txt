@@ -1,0 +1,9 @@
+Not
+Not
+Math and Stats Tools
+mathandstatstools
+Performs a logical NOT operator on two Boolean raster images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Not
+QgsProcessingParameterRasterLayer|input1|Input File|None|False
+QgsProcessingParameterRasterLayer|input2|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

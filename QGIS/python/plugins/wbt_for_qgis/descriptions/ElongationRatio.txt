@@ -1,0 +1,7 @@
+ElongationRatio
+ElongationRatio
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Calculates the elongation ratio for vector polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#ElongationRatio
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

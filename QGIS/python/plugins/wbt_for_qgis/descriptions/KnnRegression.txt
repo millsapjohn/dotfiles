@@ -1,0 +1,14 @@
+KnnRegression
+KnnRegression
+Machine Learning
+machinelearning
+Performs a supervised k-nearest neighbour regression using training site points and predictor rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#KnnRegression
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|scaling|Scaling Method|None;Normalize;Standardize|False|1|True
+QgsProcessingParameterFeatureSource|training|Input Training Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|field|Response Variable Field Name|None|False|False
+QgsProcessingParameterNumber|k|Number of Nearest Neighbours, k|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterBoolean|weight|Use distance weighting?|True|True
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|False|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

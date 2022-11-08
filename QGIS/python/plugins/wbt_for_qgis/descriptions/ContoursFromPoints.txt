@@ -1,0 +1,14 @@
+ContoursFromPoints
+ContoursFromPoints
+Geomorphometric Analysis
+geomorphometricanalysis
+Creates a contour coverage from a set of input points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ContoursFromPoints
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use Shapefile 'z' values?|False|True
+QgsProcessingParameterNumber|max_triangle_edge_length|Maximum Triangle Edge Length (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|interval|Contour Interval|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|base|Base Contour|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|smooth|Smoothing Filter Size|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector Lines File|QgsProcessing.TypeVectorLine|None|False

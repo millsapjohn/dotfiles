@@ -1,0 +1,13 @@
+QuinnFlowAccumulation
+QuinnFlowAccumulation
+Hydrological Analysis
+hydrologicalanalysis
+This tool calculates Quinn et al. (1995) flow accumulation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#QuinnFlowAccumulation
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterEnum|out_type|Output Type|cells;specific contributing area;catchment area|False|1|True
+QgsProcessingParameterNumber|exponent|Exponent Parameter|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterNumber|threshold|Convergence Threshold (grid cells; blank for none)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

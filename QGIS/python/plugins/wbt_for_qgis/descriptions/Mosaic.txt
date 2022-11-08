@@ -1,0 +1,9 @@
+Mosaic
+Mosaic
+Image Processing Tools
+imageprocessingtools
+Mosaics two or more images together
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#Mosaic
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|method|Resampling Method|nn;bilinear;cc|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,10 @@
+CostPathway
+CostPathway
+GIS Analysis - Distance Tools
+gisanalysisdistancetools
+Performs cost-distance pathway analysis using a series of destination grid cells
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_distance_tools.html#CostPathway
+QgsProcessingParameterRasterLayer|destination|Input Destination File|None|False
+QgsProcessingParameterRasterLayer|backlink|Input Backlink File|None|False
+QgsProcessingParameterBoolean|zero_background|Treat zero values as background?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

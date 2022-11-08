@@ -1,0 +1,15 @@
+IdwInterpolation
+IdwInterpolation
+GIS Analysis
+gisanalysis
+Interpolates vector points into a raster surface using an inverse-distance weighted scheme
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#IdwInterpolation
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use z-coordinate instead of field?|False|True
+QgsProcessingParameterNumber|weight|IDW Weight (Exponent) Value|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|radius|Search Radius (map units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|min_points|Min. Number of Points|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

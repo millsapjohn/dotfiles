@@ -1,0 +1,8 @@
+BreachSingleCellPits
+BreachSingleCellPits
+Hydrological Analysis
+hydrologicalanalysis
+Removes single-cell pits from an input DEM by breaching
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#BreachSingleCellPits
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

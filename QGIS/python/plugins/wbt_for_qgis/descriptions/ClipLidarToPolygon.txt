@@ -1,0 +1,9 @@
+ClipLidarToPolygon
+ClipLidarToPolygon
+LiDAR Tools
+lidartools
+Clips a LiDAR point cloud to a vector polygon or polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ClipLidarToPolygon
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFeatureSource|polygons|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

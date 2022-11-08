@@ -1,0 +1,8 @@
+EuclideanAllocation
+EuclideanAllocation
+GIS Analysis - Distance Tools
+gisanalysisdistancetools
+Assigns grid cells in the output raster the value of the nearest target cell in the input image, measured by the Shih and Wu (2004) Euclidean distance transform
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_distance_tools.html#EuclideanAllocation
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

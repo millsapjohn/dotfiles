@@ -1,0 +1,11 @@
+ExtractValleys
+ExtractValleys
+Stream Network Analysis
+streamnetworkanalysis
+Identifies potential valley bottom grid cells based on local topolography alone
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#ExtractValleys
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterEnum|variant|Variant|LQ;JandR;PandD|False|0|False
+QgsProcessingParameterBoolean|line_thin|Perform line-thinning?|True|True
+QgsProcessingParameterNumber|filter|Filter Size (Only For Lower Quartile)|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

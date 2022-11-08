@@ -1,0 +1,8 @@
+ZlidarToLas
+ZlidarToLas
+LiDAR Tools
+lidartools
+Converts one or more zlidar files into the LAS data format
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ZlidarToLas
+QgsProcessingParameterMultipleLayers|inputs|Input ZLidar Files|QgsProcessing.TypePointCloud|None|False
+QgsProcessingParameterFile|outdir|Output Directory|QgsProcessingParameterFile.Folder|None|None|True

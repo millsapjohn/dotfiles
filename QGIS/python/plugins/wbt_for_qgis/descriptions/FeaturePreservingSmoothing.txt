@@ -1,0 +1,13 @@
+FeaturePreservingSmoothing
+FeaturePreservingSmoothing
+Geomorphometric Analysis
+geomorphometricanalysis
+Reduces short-scale variation in an input DEM using a modified Sun et al. (2007) algorithm
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#FeaturePreservingSmoothing
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|filter|Filter Size|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold|QgsProcessingParameterNumber.Double|15.0|True|None|None
+QgsProcessingParameterNumber|num_iter|Iterations|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterNumber|max_diff|Maximum Elevation Change|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

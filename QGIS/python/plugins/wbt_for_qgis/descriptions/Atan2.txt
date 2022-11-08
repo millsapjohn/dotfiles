@@ -1,0 +1,9 @@
+Atan2
+Atan2
+Math and Stats Tools
+mathandstatstools
+Returns the 2-argument inverse tangent (atan2)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Atan2
+QgsProcessingParameterRasterLayer|input_y|Input Y File Or Constant Value|None|False
+QgsProcessingParameterRasterLayer|input_x|Input X File Or Constant Value|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

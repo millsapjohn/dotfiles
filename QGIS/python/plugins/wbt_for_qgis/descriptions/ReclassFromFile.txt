@@ -1,0 +1,9 @@
+ReclassFromFile
+ReclassFromFile
+GIS Analysis
+gisanalysis
+Reclassifies the values in a raster image using reclass ranges in a text file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#ReclassFromFile
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterFile|reclass_file|Input Reclass Text File|QgsProcessingParameterFile.File|txt|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

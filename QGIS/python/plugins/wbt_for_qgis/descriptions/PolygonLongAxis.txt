@@ -1,0 +1,8 @@
+PolygonLongAxis
+PolygonLongAxis
+GIS Analysis
+gisanalysis
+This tool can be used to map the long axis of polygon features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#PolygonLongAxis
+QgsProcessingParameterFeatureSource|input|Input Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorLine|None|False

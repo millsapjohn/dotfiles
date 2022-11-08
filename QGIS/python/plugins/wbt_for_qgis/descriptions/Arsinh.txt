@@ -1,0 +1,8 @@
+Arsinh
+Arsinh
+Math and Stats Tools
+mathandstatstools
+Returns the inverse hyperbolic sine (arsinh) of each values in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Arsinh
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

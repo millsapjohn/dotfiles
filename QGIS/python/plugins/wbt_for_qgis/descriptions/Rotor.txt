@@ -1,0 +1,10 @@
+Rotor
+Rotor
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool calculates rotor from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Rotor
+QgsProcessingParameterRasterLayer|dem|Input Raster DEM|None|False
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterNumber|zfactor|Z-factor|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster Image|None|False

@@ -1,0 +1,9 @@
+LidarTileFootprint
+LidarTileFootprint
+LiDAR Tools
+lidartools
+Creates a vector polygon of the convex hull of a LiDAR point cloud. When the input/output parameters are not specified, the tool works with all LAS files contained within the working directory
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarTileFootprint
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterBoolean|hull|Create Convex Hull Around Points|False|True
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

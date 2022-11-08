@@ -1,0 +1,8 @@
+LidarPointReturnAnalysis
+LidarPointReturnAnalysis
+LiDAR Tools
+lidartools
+This tool performs a quality control check on the return values of points in a LiDAR file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarPointReturnAnalysis
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|True

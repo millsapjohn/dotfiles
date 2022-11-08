@@ -1,0 +1,9 @@
+CircularVarianceOfAspect
+CircularVarianceOfAspect
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the circular variance of aspect at a scale for a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#CircularVarianceOfAspect
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|filter|Filter Dimension|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

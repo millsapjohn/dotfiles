@@ -1,0 +1,12 @@
+AttributeCorrelationNeighbourhoodAnalysis
+AttributeCorrelationNeighbourhoodAnalysis
+Math and Stats Tools
+mathandstatstools
+Performs a correlation on two input vector attributes within a neighbourhood search windows
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#AttributeCorrelationNeighbourhoodAnalysis
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field1|Field Name 1|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterField|field2|Field Name 2|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterNumber|radius|Search Radius (map units)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|min_points|Min. Number of Points|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterEnum|stat|Correlation Statistic Type|pearson;kendall;spearman|False|0|True

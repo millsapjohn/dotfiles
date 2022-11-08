@@ -1,0 +1,13 @@
+D8FlowAccumulation
+D8FlowAccumulation
+Hydrological Analysis
+hydrologicalanalysis
+Calculates a D8 flow accumulation raster from an input DEM or flow pointer
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#D8FlowAccumulation
+QgsProcessingParameterRasterLayer|input|Input DEM or D8 Pointer File|None|False
+QgsProcessingParameterEnum|out_type|Output Type|cells;catchment area;specific contributing area|False|0|True
+QgsProcessingParameterBoolean|log|Log-transform the output?|False|True
+QgsProcessingParameterBoolean|clip|Clip the upper tail by 1%?|False|True
+QgsProcessingParameterBoolean|pntr|Is the input raster a D8 flow pointer?|False|True
+QgsProcessingParameterBoolean|esri_pntr|If a pointer is input, does it use the ESRI pointer scheme?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

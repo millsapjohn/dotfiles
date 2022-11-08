@@ -1,0 +1,13 @@
+VectorPointsToRaster
+VectorPointsToRaster
+Data Tools
+datatools
+Converts a vector containing points into a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#VectorPointsToRaster
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|FID|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterEnum|assign|Assignment Operation|first;last;min;max;sum|False|1|True
+QgsProcessingParameterBoolean|nodata|Background value is NoData?|True|True
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

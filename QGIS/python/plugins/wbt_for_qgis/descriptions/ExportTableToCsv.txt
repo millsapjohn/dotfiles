@@ -1,0 +1,9 @@
+ExportTableToCsv
+ExportTableToCsv
+Data Tools
+datatools
+Exports an attribute table to a CSV text file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#ExportTableToCsv
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|headers|Export field names as file header?|True|True
+QgsProcessingParameterFileDestination|output|Output File|CSV files (*.csv *.CSV)|None|False

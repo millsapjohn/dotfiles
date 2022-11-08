@@ -1,0 +1,12 @@
+LidarSegmentationBasedFilter
+LidarSegmentationBasedFilter
+LiDAR Tools
+lidartools
+Identifies ground points within LiDAR point clouds using a segmentation based approach
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarSegmentationBasedFilter
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|5.0|False|None|None
+QgsProcessingParameterNumber|norm_diff|Normal Difference Threshold|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|maxzdiff|Maximum Elevation Difference Between Points|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterBoolean|classify|Classify Points|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

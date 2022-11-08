@@ -1,0 +1,10 @@
+PrincipalComponentAnalysis
+PrincipalComponentAnalysis
+Math and Stats Tools
+mathandstatstools
+Performs a principal component analysis (PCA) on a multi-spectral dataset
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#PrincipalComponentAnalysis
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|num_comp|Num. of Component Images (blank for all)|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterBoolean|standardized|Perform Standaradized PCA?|False|True
+QgsProcessingParameterFileDestination|output|Output HTML Report File|HTML files (*.html *.HTML)|None|False

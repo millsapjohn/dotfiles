@@ -1,0 +1,8 @@
+FillSingleCellPits
+FillSingleCellPits
+Hydrological Analysis
+hydrologicalanalysis
+Raises pit cells to the elevation of their lowest neighbour
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FillSingleCellPits
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

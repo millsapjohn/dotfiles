@@ -1,0 +1,12 @@
+Geomorphons
+Geomorphons
+Geomorphometric Analysis
+geomorphometricanalysis
+Computes geomorphon patterns
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Geomorphons
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|search|Search distance|QgsProcessingParameterNumber.Integer|50|False|None|None
+QgsProcessingParameterNumber|threshold|Flatness Threshold|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|tdist|Flatness Distance|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterBoolean|forms| Output Forms|True|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

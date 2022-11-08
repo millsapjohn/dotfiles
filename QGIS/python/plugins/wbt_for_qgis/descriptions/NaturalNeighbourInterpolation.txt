@@ -1,0 +1,13 @@
+NaturalNeighbourInterpolation
+NaturalNeighbourInterpolation
+GIS Analysis
+gisanalysis
+Creates a raster grid based on Sibson's natural neighbour method
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#NaturalNeighbourInterpolation
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use Shapefile 'z' values?|False|True
+QgsProcessingParameterNumber|cell_size|Cell Size (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster File (optional)|None|True
+QgsProcessingParameterBoolean|clip|Clip to convex hull?|True|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

@@ -1,0 +1,8 @@
+NumDownslopeNeighbours
+NumDownslopeNeighbours
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the number of downslope neighbours to each grid cell in a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#NumDownslopeNeighbours
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

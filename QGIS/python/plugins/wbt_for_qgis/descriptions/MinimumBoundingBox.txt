@@ -1,0 +1,10 @@
+MinimumBoundingBox
+MinimumBoundingBox
+GIS Analysis
+gisanalysis
+Creates a vector minimum bounding rectangle around vector features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#MinimumBoundingBox
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterEnum|criterion|Minimization Criterion|area;length;width;perimeter|False|0|True
+QgsProcessingParameterBoolean|features|Find bounding rectangles around each individual feature.|True|True
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

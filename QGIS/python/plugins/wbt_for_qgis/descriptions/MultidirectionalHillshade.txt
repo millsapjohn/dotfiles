@@ -1,0 +1,11 @@
+MultidirectionalHillshade
+MultidirectionalHillshade
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a multi-direction hillshade raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MultidirectionalHillshade
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|altitude|Altitude (degrees)|QgsProcessingParameterNumber.Double|45.0|True|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|full_mode|Full 360-degree mode?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,10 @@
+Intersect
+Intersect
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Identifies the parts of features in common between two input vector layers
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#Intersect
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|overlay|Input Overlay Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap|Snap Tolerance|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,9 @@
+ScharrFilter
+ScharrFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a Scharr edge-detection filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#ScharrFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|clip|Distribution Tail Clip Amount (Percent)|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

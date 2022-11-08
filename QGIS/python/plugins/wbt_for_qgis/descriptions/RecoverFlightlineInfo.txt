@@ -1,0 +1,12 @@
+RecoverFlightlineInfo
+RecoverFlightlineInfo
+LiDAR Tools
+lidartools
+This sorts the points in a LiDAR file by the GPS time
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#RecoverFlightlineInfo
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|max_time_diff|Maximum In-Flightline Time Difference (seconds)|QgsProcessingParameterNumber.Double|5.0|True|None|None
+QgsProcessingParameterBoolean|pt_src_id|Add flightline info to the Point Source ID?|False|True
+QgsProcessingParameterBoolean|user_data|Add flightline info to the User Data?|False|True
+QgsProcessingParameterBoolean|rgb|Add flightline info to the RGB colour data?|False|True
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|False

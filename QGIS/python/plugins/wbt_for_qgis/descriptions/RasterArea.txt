@@ -1,0 +1,11 @@
+RasterArea
+RasterArea
+GIS Analysis
+gisanalysis
+Calculates the area of polygons or classes within a raster image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#RasterArea
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterBoolean|out_text|Output text?|False|False
+QgsProcessingParameterEnum|units|Units|grid cells;map units|False|0|True
+QgsProcessingParameterBoolean|zero_back|Treat zero values as background?|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|True

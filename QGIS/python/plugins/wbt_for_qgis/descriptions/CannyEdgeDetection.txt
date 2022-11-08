@@ -1,0 +1,12 @@
+CannyEdgeDetection
+CannyEdgeDetection
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+This tool performs a Canny edge-detection filter on an input image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#CannyEdgeDetection
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterNumber|sigma|Sigma Value|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|low|Low Threshold|QgsProcessingParameterNumber.Double|0.05|True|None|None
+QgsProcessingParameterNumber|high|High Threshold|QgsProcessingParameterNumber.Double|0.15|True|None|None
+QgsProcessingParameterBoolean|add_back|Add edge back to the image?|False|True
+QgsProcessingParameterRasterDestination|output|Output Raster Image|None|False

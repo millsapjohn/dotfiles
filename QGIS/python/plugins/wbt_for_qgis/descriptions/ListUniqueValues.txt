@@ -1,0 +1,9 @@
+ListUniqueValues
+ListUniqueValues
+Math and Stats Tools
+mathandstatstools
+Lists the unique values contained in a field within a vector's attribute table
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ListUniqueValues
+QgsProcessingParameterFeatureSource|input|Input File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

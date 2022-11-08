@@ -1,0 +1,9 @@
+FilterLidarClasses
+FilterLidarClasses
+LiDAR Tools
+lidartools
+Removes points in a LAS file with certain specified class values
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#FilterLidarClasses
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterString|exclude_cls|Exclusion Classes (0-18, based on LAS spec; e.g. 7,18)|None|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

@@ -1,0 +1,9 @@
+FlightlineOverlap
+FlightlineOverlap
+LiDAR Tools
+lidartools
+Reads a LiDAR (LAS) point file and outputs a raster containing the number of overlapping flight-lines in each grid cell
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#FlightlineOverlap
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|True

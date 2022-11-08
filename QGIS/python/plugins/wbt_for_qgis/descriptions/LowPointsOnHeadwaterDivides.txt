@@ -1,0 +1,9 @@
+LowPointsOnHeadwaterDivides
+LowPointsOnHeadwaterDivides
+Hydrological Analysis
+hydrologicalanalysis
+This tool locates saddle points along ridges within a digital elevation model (DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#LowPointsOnHeadwaterDivides
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams Raster|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorPoint|None|False

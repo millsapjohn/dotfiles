@@ -1,0 +1,13 @@
+LidarDigitalSurfaceModel
+LidarDigitalSurfaceModel
+LiDAR Tools
+lidartools
+Creates a top-surface digital surface model (DSM) from a LiDAR point cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarDigitalSurfaceModel
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|minz|Minimum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|maxz|Maximum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_triangle_edge_length|Maximum Triangle Edge Length (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|True

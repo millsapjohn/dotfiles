@@ -1,0 +1,9 @@
+ElevationAboveStream
+ElevationAboveStream
+Hydrological Analysis
+hydrologicalanalysis
+Calculates the elevation of cells above the nearest downslope stream cell
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#ElevationAboveStream
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

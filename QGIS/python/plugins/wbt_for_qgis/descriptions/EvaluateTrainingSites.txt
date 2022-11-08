@@ -1,0 +1,10 @@
+EvaluateTrainingSites
+EvaluateTrainingSites
+Image Processing Tools - Classification
+imageprocessingtoolsclassification
+This tool can be used to inspect the overlap in spectral signatures of training sites for various classes
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_classification.html#EvaluateTrainingSites
+QgsProcessingParameterMultipleLayers|inputs|Input Band Images|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|polys|Input Training Polygons|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterString|field|Class Name Field|None|False|False
+QgsProcessingParameterFileDestination|output|Output File (*.html)|HTML files (*.html *.HTML)|None|False

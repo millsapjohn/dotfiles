@@ -1,0 +1,52 @@
+[general]
+name=RasterDataPlotting
+description=Create plots visualizing raster data for all pixels currently visible inside the map canvas.
+version=1.6.3
+about=The Raster Data Plotting plugin adds a panel for creating i) spectral/temporal pixel profile plots and ii) 2-d scatter/density plots visualizing all visible pixel for two selected raster bands. The scatter plot data is adapting in real-time, whenever the map canvas extent changes. See the project homepage for a detailed overview and usage instructions.
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.0
+author=Andreas Rabe
+email=andreas.rabe@geo.hu-berlin.de
+tags=plot,data,raster,scatter plot,spectral profile plot,temporal profile plot,density,2d,distribution
+icon=icon.png
+experimental=False
+homepage=https://raster-data-plotting.readthedocs.io
+tracker=https://bitbucket.org/janzandr/rasterdataplotting/issues
+repository=https://bitbucket.org/janzandr/rasterdataplotting
+changelog=1.6.3
+    - Fixed broken scatter plots for recent scipy versions (issue #8). (TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe'')
+    1.6.2
+    - Fixed Python 3.8 issue (AttributeError: module 'time' has no attribute 'clock').
+    1.6.1
+    - Fixed import error (..site.RasterTimeseriesManager)
+    1.6
+    - Reintroduced Spectral Profile Plots.
+    - Reintroduced Temporal Profile Plots (RasterTimeseriesManager plugin version >= v1.5.1 required).
+    1.5
+    - Added controls for curve fitting (linear, quadratic, cubic, exponential, logarithmic) and correlation analysis (Pearson correlation).
+    - Added option to run the analysis on the whole raster.
+    - Added support for temporal linkage to the Raster Timeseries Manager plugin (version >= v1.5 required).
+    - Support all QGIS color ramps for density plots.
+    1.4
+    - Added controls for selecting spatial region of interests (ROI), i.e. features from a vector layer.
+      Allows to focus the analysis on specific regions in the map canvas (e.g. urban, forest or agriculture areas).
+      Scatter plot can be colorized using the layer styling symbol colors.
+    - Added control for toggling automatic binning to native screen resolution, i.e. one bin matches exactly one screen pixel.
+    1.3
+    - Added control for toggling data plotting on/off.
+    - Added controls for adjusting axes ranges.
+    - Added controls for adjusting histogram contrast stretch.
+    - Added controls for creating region of interests (ROI) inside the scatter plot.
+      Pixels that fall into a ROI are overlayed/colorized inside the map canvas.
+    1.2.1
+    - Moved external PyQtGraph dependency into the plugin.
+    1.2
+    - Added spectral and temporal profile plots.
+    - Renamed pluging from "Raster Data Plotly" to "Raster Data Plotting".
+    1.1
+    - Added on the fly reprojection of the extent from map canvas CRS to layer CRS
+    - Fixed wrong tracker and repository links.
+    1.0.1
+    - Fixed icon.
+    1.0
+    - Initial upload.

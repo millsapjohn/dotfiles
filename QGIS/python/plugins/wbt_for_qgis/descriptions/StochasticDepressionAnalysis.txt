@@ -1,0 +1,11 @@
+StochasticDepressionAnalysis
+StochasticDepressionAnalysis
+Hydrological Analysis
+hydrologicalanalysis
+Performs a stochastic analysis of depressions within a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#StochasticDepressionAnalysis
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|rmse|DEM root-mean-square-error (z units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|range|Range of Autocorrelation (map units)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|iterations|Iterations|QgsProcessingParameterNumber.Integer|100|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

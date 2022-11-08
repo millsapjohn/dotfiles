@@ -1,0 +1,11 @@
+FillMissingData
+FillMissingData
+Geomorphometric Analysis
+geomorphometricanalysis
+Fills NoData holes in a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#FillMissingData
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|filter|Filter Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|weight|IDW Weight (Exponent) Value|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterBoolean|no_edges|Exclude edge-of-raster-connected NoData cells?|True|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

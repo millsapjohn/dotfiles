@@ -1,0 +1,11 @@
+SigmoidalContrastStretch
+SigmoidalContrastStretch
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Performs a sigmoidal contrast stretch on input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#SigmoidalContrastStretch
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|cutoff|Cutoff Value (0.0 - 0.95)|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|gain|Gain Value|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|num_tones|Number of Tones|QgsProcessingParameterNumber.Integer|256|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

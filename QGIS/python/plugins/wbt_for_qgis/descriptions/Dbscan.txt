@@ -1,0 +1,11 @@
+Dbscan
+Dbscan
+Machine Learning
+machinelearning
+Performs a DBSCAN-based unsupervised clustering operation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#Dbscan
+QgsProcessingParameterMultipleLayers|inputs|Input Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|scaling|Scaling Method|None;Normalize;Standardize|False|1|True
+QgsProcessingParameterNumber|search_dist|Search distance|QgsProcessingParameterNumber.Double|0.01|True|None|None
+QgsProcessingParameterNumber|min_points|Minimum Points|QgsProcessingParameterNumber.Integer|5|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

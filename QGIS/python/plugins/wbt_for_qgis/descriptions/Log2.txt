@@ -1,0 +1,8 @@
+Log2
+Log2
+Math and Stats Tools
+mathandstatstools
+Returns the base-2 logarithm of values in a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Log2
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

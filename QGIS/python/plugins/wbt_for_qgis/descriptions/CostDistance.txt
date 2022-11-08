@@ -1,0 +1,10 @@
+CostDistance
+CostDistance
+GIS Analysis - Distance Tools
+gisanalysisdistancetools
+Performs cost-distance accumulation on a cost surface and a group of source cells
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_distance_tools.html#CostDistance
+QgsProcessingParameterRasterLayer|source|Input Source File|None|False
+QgsProcessingParameterRasterLayer|cost|Input Cost (Friction) File|None|False
+QgsProcessingParameterRasterDestination|out_accum|Output Cost Accumulation File|None|False
+QgsProcessingParameterRasterDestination|out_backlink|Output Backlink File|None|False

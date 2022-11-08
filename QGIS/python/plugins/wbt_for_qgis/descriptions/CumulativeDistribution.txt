@@ -1,0 +1,8 @@
+CumulativeDistribution
+CumulativeDistribution
+Math and Stats Tools
+mathandstatstools
+Converts a raster image to its cumulative distribution function
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#CumulativeDistribution
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,8 @@
+MaxOverlay
+MaxOverlay
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Evaluates the maximum value for each grid cell from a stack of input rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#MaxOverlay
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

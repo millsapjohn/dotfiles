@@ -1,0 +1,11 @@
+LidarInfo
+LidarInfo
+LiDAR Tools
+lidartools
+Prints information about a LiDAR (LAS) dataset, including header, point return frequency, and classification data and information about the variable length records (VLRs) and geokeys
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarInfo
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterBoolean|density|Calculate the average point density and nominal point spacing?|True|True
+QgsProcessingParameterBoolean|vlr|Print the variable length records (VLRs)?|True|True
+QgsProcessingParameterBoolean|geokeys|Print the geokeys?|True|True
+QgsProcessingParameterFileDestination|output|Output Summary Report File|HTML files (*.html *.HTML)|None|False

@@ -1,0 +1,12 @@
+LogisticRegression
+LogisticRegression
+Machine Learning
+machinelearning
+Performs a logistic regression analysis using training site polygons/points and predictor rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#LogisticRegression
+QgsProcessingParameterMultipleLayers|inputs|Input Predictor Rasters|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|scaling|Scaling Method|None;Normalize;Standardize|False|1|True
+QgsProcessingParameterFeatureSource|training|Input Training Polygons/Points|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterString|field|Class Field Name|None|False|False
+QgsProcessingParameterNumber|test_proportion|Test Proportion|QgsProcessingParameterNumber.Double|0.2|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|True

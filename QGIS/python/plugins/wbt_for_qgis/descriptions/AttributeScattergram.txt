@@ -1,0 +1,11 @@
+AttributeScattergram
+AttributeScattergram
+Math and Stats Tools
+mathandstatstools
+Creates a scattergram for two field values of a vector's attribute table
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#AttributeScattergram
+QgsProcessingParameterFeatureSource|input|Input File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|fieldx|Field Name X|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterField|fieldy|Field Name Y|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|trendline|Draw the trendline?|False|True
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

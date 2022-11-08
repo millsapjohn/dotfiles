@@ -1,0 +1,11 @@
+ImageSegmentation
+ImageSegmentation
+Image Processing Tools - Classification
+imageprocessingtoolsclassification
+Performs a region-growing based segmentation on a set of multi-spectral images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_classification.html#ImageSegmentation
+QgsProcessingParameterMultipleLayers|inputs|Input Band Images|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|threshold|Distance Threshold (z-scores)|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterNumber|steps|Number of Steps|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterNumber|min_area|Min. Object Area (in grid cells)|QgsProcessingParameterNumber.Integer|4|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

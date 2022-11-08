@@ -1,0 +1,10 @@
+SobelFilter
+SobelFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a Sobel edge-detection filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#SobelFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|variant|Variant|3x3;5x5|False|0|True
+QgsProcessingParameterNumber|clip|Clip Tails (%)|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

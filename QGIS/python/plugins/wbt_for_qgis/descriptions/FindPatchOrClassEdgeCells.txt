@@ -1,0 +1,8 @@
+FindPatchOrClassEdgeCells
+FindPatchOrClassEdgeCells
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Finds all cells located on the edge of patch or class features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#FindPatchOrClassEdgeCells
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,14 @@
+LidarPointDensity
+LidarPointDensity
+LiDAR Tools
+lidartools
+Calculates the spatial pattern of point density for a LiDAR data set. When the input/output parameters are not specified, the tool grids all LAS files contained within the working directory
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarPointDensity
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|returns|Point Returns Included|all;last;first|False|0|True
+QgsProcessingParameterNumber|resolution|Grid Resolution|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.5|True|None|None
+QgsProcessingParameterString|exclude_cls|Exclusion Classes (0-18, based on LAS spec; e.g. 3,4,5,6,7)|None|False|True
+QgsProcessingParameterNumber|minz|Minimum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|maxz|Maximum Elevation Value (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|True

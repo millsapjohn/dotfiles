@@ -1,0 +1,11 @@
+RemoveFieldEdgePoints
+RemoveFieldEdgePoints
+Precision Agriculture
+precisionagriculture
+This tool can be used to remove, or flag, most of the points along the edges from a crop yield data set
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/precision_agriculture.html#RemoveFieldEdgePoints
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|dist|Average Distance Between Passes (m)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_change_in_heading|Max Change In Heading (degrees)|QgsProcessingParameterNumber.Double|25.0|True|None|None
+QgsProcessingParameterBoolean|flag_edges|Don't remove edge points, just flag them?|False|True
+QgsProcessingParameterVectorDestination|output|Output Points|QgsProcessing.TypeVectorPoint|None|False

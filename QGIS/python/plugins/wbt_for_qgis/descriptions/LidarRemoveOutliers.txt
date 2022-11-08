@@ -1,0 +1,12 @@
+LidarRemoveOutliers
+LidarRemoveOutliers
+LiDAR Tools
+lidartools
+Removes outliers (high and low points) in a LiDAR point cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarRemoveOutliers
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|radius|Search Radius|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|elev_diff|Max. Elevation Difference|QgsProcessingParameterNumber.Double|50.0|True|None|None
+QgsProcessingParameterBoolean|use_median|Use difference from median elevation?|False|True
+QgsProcessingParameterBoolean|classify|Classify Points|True|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

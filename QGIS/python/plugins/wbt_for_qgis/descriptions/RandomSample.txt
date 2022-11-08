@@ -1,0 +1,9 @@
+RandomSample
+RandomSample
+Math and Stats Tools
+mathandstatstools
+Creates an image containing randomly located sample grid cells with unique IDs
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#RandomSample
+QgsProcessingParameterRasterLayer|base|Input Base File|None|False
+QgsProcessingParameterNumber|num_samples|Num. Samples|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

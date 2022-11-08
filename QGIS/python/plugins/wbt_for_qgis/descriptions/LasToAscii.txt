@@ -1,0 +1,7 @@
+LasToAscii
+LasToAscii
+LiDAR Tools
+lidartools
+Converts one or more LAS files into ASCII text files
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LasToAscii
+QgsProcessingParameterMultipleLayers|inputs|Input LiDAR Files|QgsProcessing.TypePointCloud|None|False

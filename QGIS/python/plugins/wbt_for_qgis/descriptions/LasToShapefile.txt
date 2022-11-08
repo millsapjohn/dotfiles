@@ -1,0 +1,7 @@
+LasToShapefile
+LasToShapefile
+LiDAR Tools
+lidartools
+Converts one or more LAS files into a vector Shapefile of POINT ShapeType
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LasToShapefile
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)

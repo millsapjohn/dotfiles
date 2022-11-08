@@ -1,0 +1,10 @@
+RasterStreamsToVector
+RasterStreamsToVector
+Stream Network Analysis
+streamnetworkanalysis
+Converts a raster stream file into a vector file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#RasterStreamsToVector
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterBoolean|esri_pntr|Does the pointer file use the ESRI pointer scheme?|False|True
+QgsProcessingParameterVectorDestination|output|Output File|QgsProcessing.TypeVectorLine|None|False

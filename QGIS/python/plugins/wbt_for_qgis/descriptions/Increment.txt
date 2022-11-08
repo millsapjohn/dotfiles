@@ -1,0 +1,8 @@
+Increment
+Increment
+Math and Stats Tools
+mathandstatstools
+Increases the values of each grid cell in an input raster by 1.0. (see also InPlaceAdd
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Increment
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

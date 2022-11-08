@@ -1,0 +1,9 @@
+KsTestForNormality
+KsTestForNormality
+Math and Stats Tools
+mathandstatstools
+Evaluates whether the values in a raster are normally distributed
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#KsTestForNormality
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|num_samples|Num. Samples (blank for while image)|QgsProcessingParameterNumber.Integer|None|True|None|None
+QgsProcessingParameterFileDestination|output|Output File|HTML files (*.html *.HTML)|None|False

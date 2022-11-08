@@ -1,0 +1,9 @@
+FindParallelFlow
+FindParallelFlow
+Hydrological Analysis
+hydrologicalanalysis
+Finds areas of parallel flow in D8 flow direction rasters
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FindParallelFlow
+QgsProcessingParameterRasterLayer|d8_pntr|Input D8 Pointer File|None|False
+QgsProcessingParameterRasterLayer|streams|Input Streams File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

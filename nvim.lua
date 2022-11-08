@@ -1,10 +1,12 @@
 vim.g.loaded = 1
 vim.g.loaded_netrwplugin = 1
+-- shortening some definitions
 local opt = vim.opt
 local fn = vim.fn
 local g = vim.g
 local cmd = vim.cmd
 
+-- setting native options
 opt.cursorline = true
 opt.shiftwidth = 4
 opt.autoindent = true
@@ -132,6 +134,8 @@ local opts = {
 }
 
 require("rust-tools").setup(opts)
+
+require'lspconfig'.jedi_language_server.setup{}
 
 local cmp = require("cmp")
 cmp.setup({

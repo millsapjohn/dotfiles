@@ -1,0 +1,9 @@
+FixDanglingArcs
+FixDanglingArcs
+Data Tools
+datatools
+This tool fixes undershot and overshot arcs, two common topological errors, in an input vector lines file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#FixDanglingArcs
+QgsProcessingParameterFeatureSource|input|Input Vector Lines|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterNumber|dist|Snap Distance|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterVectorDestination|output|Output Lines|QgsProcessing.TypeVectorLine|None|False

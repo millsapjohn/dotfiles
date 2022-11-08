@@ -1,0 +1,9 @@
+MinimumConvexHull
+MinimumConvexHull
+GIS Analysis
+gisanalysis
+Creates a vector convex polygon around vector features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#MinimumConvexHull
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|features|Find hulls around each individual feature.|True|True
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

@@ -1,0 +1,11 @@
+ConditionalEvaluation
+ConditionalEvaluation
+Math and Stats Tools
+mathandstatstools
+This tool performs a conditional evaluation (if-then-else) operation on a raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ConditionalEvaluation
+QgsProcessingParameterRasterLayer|input|Input Raster|None|False
+QgsProcessingParameterString|statement|Conditional Statement e.g. value > 35.0:|None|False|False
+QgsProcessingParameterRasterLayer|true|Value Where TRUE (Raster File Or Constant Value)|None|True
+QgsProcessingParameterRasterLayer|false|Value Where FALSE (Raster File Or Constant Value)|None|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

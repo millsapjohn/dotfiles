@@ -1,0 +1,8 @@
+RemovePolygonHoles
+RemovePolygonHoles
+Data Tools
+datatools
+Removes holes within the features of a vector polygon file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#RemovePolygonHoles
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

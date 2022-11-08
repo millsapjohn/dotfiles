@@ -1,0 +1,10 @@
+Slope
+Slope
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a slope raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Slope
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterEnum|units|Units|degrees;radians;percent|False|0|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

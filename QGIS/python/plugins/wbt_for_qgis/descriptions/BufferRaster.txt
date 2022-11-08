@@ -1,0 +1,10 @@
+BufferRaster
+BufferRaster
+GIS Analysis - Distance Tools
+gisanalysisdistancetools
+Maps a distance-based buffer around each non-background (non-zero/non-nodata) grid cell in an input image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_distance_tools.html#BufferRaster
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|size|Buffer Size|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|gridcells|Buffer size measured in grid cells?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

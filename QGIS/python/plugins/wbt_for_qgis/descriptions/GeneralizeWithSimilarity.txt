@@ -1,0 +1,10 @@
+GeneralizeWithSimilarity
+GeneralizeWithSimilarity
+Image Processing Tools - Classification
+imageprocessingtoolsclassification
+Generalizes a raster containing class or object features by removing small features using similarity criteria of neighbouring features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_classification.html#GeneralizeWithSimilarity
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterMultipleLayers|similarity|Input Similarity Images|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|min_size|Min. Feature Size (in grid cells)|QgsProcessingParameterNumber.Integer|4|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False

@@ -1,0 +1,13 @@
+RgbToIhs
+RgbToIhs
+Image Processing Tools
+imageprocessingtools
+Converts red, green, and blue (RGB) images into intensity, hue, and saturation (IHS) images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools.html#RgbToIhs
+QgsProcessingParameterRasterLayer|red|Input Red Band File (optional; only if colour-composite not specified)|None|True
+QgsProcessingParameterRasterLayer|green|Input Green Band File (optional; only if colour-composite not specified)|None|True
+QgsProcessingParameterRasterLayer|blue|Input Blue Band File (optional; only if colour-composite not specified)|None|True
+QgsProcessingParameterRasterLayer|composite|Input Colour-Composite Image File (optional; only if individual bands not specified)|None|True
+QgsProcessingParameterRasterDestination|intensity|Output Intensity File|None|False
+QgsProcessingParameterRasterDestination|hue|Output Hue File|None|False
+QgsProcessingParameterRasterDestination|saturation|Output Saturation File|None|False

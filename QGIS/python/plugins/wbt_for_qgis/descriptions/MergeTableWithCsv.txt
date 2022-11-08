@@ -1,0 +1,11 @@
+MergeTableWithCsv
+MergeTableWithCsv
+Data Tools
+datatools
+Merge a vector's attribute table with a table contained within a CSV text file
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#MergeTableWithCsv
+QgsProcessingParameterFeatureSource|input|Input Primary Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|pkey|Primary Key Field|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any
+QgsProcessingParameterFile|csv|Input CSV File|QgsProcessingParameterFile.File|csv|None|False
+QgsProcessingParameterField|fkey|Foreign Key Field|None|csv|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any
+QgsProcessingParameterField|import_field|Imported Field|None|csv|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Any

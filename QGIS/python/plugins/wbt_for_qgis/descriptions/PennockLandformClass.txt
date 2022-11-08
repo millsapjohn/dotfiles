@@ -1,0 +1,12 @@
+PennockLandformClass
+PennockLandformClass
+Geomorphometric Analysis
+geomorphometricanalysis
+Classifies hillslope zones based on slope, profile curvature, and plan curvature
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#PennockLandformClass
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|slope|Slope Threshold (degrees)|QgsProcessingParameterNumber.Double|3.0|False|None|None
+QgsProcessingParameterNumber|prof|Profile Curvature Threshold|QgsProcessingParameterNumber.Double|0.1|False|None|None
+QgsProcessingParameterNumber|plan|Plan Curvature Threshold|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

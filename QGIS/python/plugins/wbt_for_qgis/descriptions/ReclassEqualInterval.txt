@@ -1,0 +1,11 @@
+ReclassEqualInterval
+ReclassEqualInterval
+GIS Analysis
+gisanalysis
+Reclassifies the values in a raster image based on equal-ranges
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#ReclassEqualInterval
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterNumber|interval|Class Interval Size|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|start_val|Starting Value|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|end_val|Ending Value|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

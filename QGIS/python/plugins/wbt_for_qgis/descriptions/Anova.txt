@@ -1,0 +1,9 @@
+Anova
+Anova
+Math and Stats Tools
+mathandstatstools
+Performs an analysis of variance (ANOVA) test on a raster dataset
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#Anova
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterRasterLayer|features|Feature Definition (Class) File|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False

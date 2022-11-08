@@ -1,0 +1,7 @@
+PolygonPerimeter
+PolygonPerimeter
+GIS Analysis
+gisanalysis
+Calculates the perimeter of vector polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#PolygonPerimeter
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

@@ -1,0 +1,11 @@
+HydrologicConnectivity
+HydrologicConnectivity
+Hydrological Analysis
+hydrologicalanalysis
+This tool evaluates hydrologic connectivity within a DE
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#HydrologicConnectivity
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterNumber|exponent|Exponent Parameter|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterNumber|threshold|Convergence Threshold (grid cells; blank for none)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output1|Output Downslope Unsaturated Length File|None|False
+QgsProcessingParameterRasterDestination|output2|Output Upslope Disconnected Saturated Area File|None|False

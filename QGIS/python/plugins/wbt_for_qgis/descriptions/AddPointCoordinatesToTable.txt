@@ -1,0 +1,7 @@
+AddPointCoordinatesToTable
+AddPointCoordinatesToTable
+Data Tools
+datatools
+Modifies the attribute table of a point vector by adding fields containing each point's X and Y coordinates
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#AddPointCoordinatesToTable
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False

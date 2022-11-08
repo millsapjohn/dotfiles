@@ -1,0 +1,11 @@
+ClassifyOverlapPoints
+ClassifyOverlapPoints
+LiDAR Tools
+lidartools
+Classifies or filters LAS points in regions of overlapping flight lines
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ClassifyOverlapPoints
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Sample Resolution|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterEnum|criterion|Overlap Criterion|max scan angle;not min point source ID;not min time;multiple point source IDs|False|0|True
+QgsProcessingParameterBoolean|filter|Filter out points from overlapping flightlines?|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

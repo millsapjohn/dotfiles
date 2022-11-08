@@ -1,0 +1,9 @@
+ErasePolygonFromLidar
+ErasePolygonFromLidar
+LiDAR Tools
+lidartools
+Erases (cuts out) a vector polygon or polygons from a LiDAR point cloud
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ErasePolygonFromLidar
+QgsProcessingParameterFile|input|Input File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFeatureSource|polygons|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

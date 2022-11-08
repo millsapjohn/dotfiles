@@ -1,0 +1,8 @@
+NumUpslopeNeighbours
+NumUpslopeNeighbours
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the number of upslope neighbours to each grid cell in a DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#NumUpslopeNeighbours
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

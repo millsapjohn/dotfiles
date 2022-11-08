@@ -1,0 +1,12 @@
+RecreatePassLines
+RecreatePassLines
+Precision Agriculture
+precisionagriculture
+This tool can be used to approximate the harvester pass lines from yield points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/precision_agriculture.html#RecreatePassLines
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|yield_field_name|Yield Field Name|None|False|False
+QgsProcessingParameterNumber|max_change_in_heading|Max Change In Heading (degrees)|QgsProcessingParameterNumber.Double|25.0|True|None|None
+QgsProcessingParameterBoolean|ignore_zeros|Ignore zero-valued yield points?|False|True
+QgsProcessingParameterVectorDestination|output_lines|Output Pass Line|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output_points|Output Points|QgsProcessing.TypeVectorPoint|None|False

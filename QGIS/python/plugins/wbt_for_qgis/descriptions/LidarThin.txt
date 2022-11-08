@@ -1,0 +1,11 @@
+LidarThin
+LidarThin
+LiDAR Tools
+lidartools
+Thins a LiDAR point cloud, reducing point density
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarThin
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution|Sample Resolution|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterEnum|method|Point Selection Method|first;last;lowest;highest;nearest|False|2|True
+QgsProcessingParameterBoolean|save_filtered|Save filtered points to separate file?|False|True
+QgsProcessingParameterFileDestination|output|Output File|LiDAR files (*.las *.laz *.zlidar)|None|False

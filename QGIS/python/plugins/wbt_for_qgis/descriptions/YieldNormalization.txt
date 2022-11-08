@@ -1,0 +1,13 @@
+YieldNormalization
+YieldNormalization
+Precision Agriculture
+precisionagriculture
+This tool can be used to normalize the yield points for a field
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/precision_agriculture.html#YieldNormalization
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|yield_field|Yield Field Name|None|False|False
+QgsProcessingParameterBoolean|standardize|Standardize rather than normalize?|False|True
+QgsProcessingParameterNumber|radius|Search Radius (m)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|min_yield|Minimum Yield|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|max_yield|Maximum Yield|QgsProcessingParameterNumber.Double|99999.9|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Points|QgsProcessing.TypeVectorPoint|None|False

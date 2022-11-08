@@ -1,0 +1,10 @@
+DirectionalRelief
+DirectionalRelief
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates relief for cells in an input DEM for a specified direction
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#DirectionalRelief
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|azimuth|Azimuth|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|max_dist|Maximum Search Distance|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

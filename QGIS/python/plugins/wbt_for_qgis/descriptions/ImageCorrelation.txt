@@ -1,0 +1,8 @@
+ImageCorrelation
+ImageCorrelation
+Math and Stats Tools
+mathandstatstools
+Performs image correlation on two or more input images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ImageCorrelation
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|True

@@ -1,0 +1,11 @@
+LineDetectionFilter
+LineDetectionFilter
+Image Processing Tools - Filters
+imageprocessingtoolsfilters
+Performs a line-detection filter on an image
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_filters.html#LineDetectionFilter
+QgsProcessingParameterRasterLayer|input|Input File|None|False
+QgsProcessingParameterEnum|variant|Variant|vertical;horizontal;45;135|False|0|True
+QgsProcessingParameterBoolean|absvals|Output absolute values?|False|True
+QgsProcessingParameterNumber|clip|Distribution Tail Clip Amount (%)|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

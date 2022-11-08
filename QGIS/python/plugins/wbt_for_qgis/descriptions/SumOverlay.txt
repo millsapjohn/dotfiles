@@ -1,0 +1,8 @@
+SumOverlay
+SumOverlay
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Calculates the sum for each grid cell from a group of raster images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#SumOverlay
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

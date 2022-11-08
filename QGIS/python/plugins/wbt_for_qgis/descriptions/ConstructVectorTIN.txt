@@ -1,0 +1,11 @@
+ConstructVectorTIN
+ConstructVectorTIN
+GIS Analysis
+gisanalysis
+Creates a vector triangular irregular network (TIN) for a set of vector points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#ConstructVectorTIN
+QgsProcessingParameterFeatureSource|input|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterField|field|Field Name|None|input|QgsProcessingParameterField.Any|False|QgsProcessingParameterField.Number
+QgsProcessingParameterBoolean|use_z|Use Shapefile 'z' values?|False|True
+QgsProcessingParameterNumber|max_triangle_edge_length|Maximum Triangle Edge Length (optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

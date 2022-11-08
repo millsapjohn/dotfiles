@@ -1,0 +1,7 @@
+LinearityIndex
+LinearityIndex
+GIS Analysis - Patch Shape Tools
+gisanalysispatchshapetools
+Calculates the linearity index for vector polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_patch_shape_tools.html#LinearityIndex
+QgsProcessingParameterFeatureSource|input|Input Vector Polygon File|QgsProcessing.TypeVectorPolygon|None|False

@@ -1,0 +1,10 @@
+RemoveOffTerrainObjects
+RemoveOffTerrainObjects
+Geomorphometric Analysis
+geomorphometricanalysis
+Removes off-terrain objects from a raster digital elevation model (DEM)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#RemoveOffTerrainObjects
+QgsProcessingParameterRasterLayer|input|Input DEM File|None|False
+QgsProcessingParameterNumber|filter|Filter Dimension|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|slope|Slope Threshold|QgsProcessingParameterNumber.Double|15.0|False|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

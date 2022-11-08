@@ -1,0 +1,7 @@
+ReinitializeAttributeTable
+ReinitializeAttributeTable
+Data Tools
+datatools
+Reinitializes a vector's attribute table deleting all fields but the feature ID (FID)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#ReinitializeAttributeTable
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

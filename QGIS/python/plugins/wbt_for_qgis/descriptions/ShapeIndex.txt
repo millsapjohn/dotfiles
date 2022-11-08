@@ -1,0 +1,9 @@
+ShapeIndex
+ShapeIndex
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool calculates the shape index from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ShapeIndex
+QgsProcessingParameterRasterLayer|dem|Input Raster DEM|None|False
+QgsProcessingParameterNumber|zfactor|Z-factor|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster Image|None|False

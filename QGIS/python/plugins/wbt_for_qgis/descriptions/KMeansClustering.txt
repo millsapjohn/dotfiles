@@ -1,0 +1,14 @@
+KMeansClustering
+KMeans Clustering
+Machine Learning
+machinelearning
+Performs a k-means clustering operation on a multi-spectral dataset
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/machine_learning.html#KMeansClustering
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|classes|Num. Classes (k)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|max_iterations|Max. Iterations|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterNumber|class_change|Percent Class Change Threshold|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterEnum|initialize|How to Initialize Cluster Centres?|diagonal;random|False|0|True
+QgsProcessingParameterNumber|min_class_size|Min. Class Size|QgsProcessingParameterNumber.Integer|10|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False
+QgsProcessingParameterFileDestination|out_html|Output HTML Report File|HTML files (*.html *.HTML)|None|True

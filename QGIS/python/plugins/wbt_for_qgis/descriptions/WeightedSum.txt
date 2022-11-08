@@ -1,0 +1,9 @@
+WeightedSum
+WeightedSum
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Performs a weighted-sum overlay on multiple input raster images
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#WeightedSum
+QgsProcessingParameterMultipleLayers|inputs|Input Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterString|weights|Weight Values (e.g. 1.7;3.5;1.2)|None|False|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

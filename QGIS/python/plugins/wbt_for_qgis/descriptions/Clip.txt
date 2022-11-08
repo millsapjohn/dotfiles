@@ -1,0 +1,9 @@
+Clip
+Clip
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Extract all the features, or parts of features, that overlap with the features of the clip vector
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#Clip
+QgsProcessingParameterFeatureSource|input|Input Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|clip|Input Clip Polygon Vector File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Vector File|QgsProcessing.TypeVectorAnyGeometry|None|False

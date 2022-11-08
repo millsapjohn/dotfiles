@@ -1,0 +1,11 @@
+AssessRoute
+AssessRoute
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool assesses a route for slope, elevation, and visibility variation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#AssessRoute
+QgsProcessingParameterFeatureSource|routes|Input Routes Vector|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterNumber|length|Max Segment Length|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|dist|Search Distance (grid cells)|QgsProcessingParameterNumber.Integer|20|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Lines|QgsProcessing.TypeVectorLine|None|False

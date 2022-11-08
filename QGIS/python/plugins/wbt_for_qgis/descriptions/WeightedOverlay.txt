@@ -1,0 +1,12 @@
+WeightedOverlay
+WeightedOverlay
+GIS Analysis - Overlay Tools
+gisanalysisoverlaytools
+Performs a weighted sum on multiple input rasters after converting each image to a common scale. The tool performs a multi-criteria evaluation (MCE)
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis_overlay_tools.html#WeightedOverlay
+QgsProcessingParameterMultipleLayers|factors|Input Factor Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterString|weights|Weight Values (e.g. 1.7;3.5;1.2)|None|False|False
+QgsProcessingParameterString|cost|Cost Factor? (e.g. false;true;true)|None|False|True
+QgsProcessingParameterMultipleLayers|constraints|Input Constraints Files|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|scale_max|Suitability Scale Maximum|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

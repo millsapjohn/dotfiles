@@ -1,0 +1,11 @@
+RasterizeStreams
+RasterizeStreams
+Stream Network Analysis
+streamnetworkanalysis
+Rasterizes vector streams based on Lindsay (2016) method
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/stream_network_analysis.html#RasterizeStreams
+QgsProcessingParameterFeatureSource|streams|Input Vector Streams File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterRasterLayer|base|Input Base Raster File|None|False
+QgsProcessingParameterBoolean|nodata|Use NoData value for background?|True|True
+QgsProcessingParameterBoolean|feature_id|Use feature number as output value?|False|True
+QgsProcessingParameterRasterDestination|output|Output File|None|False

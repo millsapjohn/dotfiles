@@ -1,0 +1,8 @@
+FindNoFlowCells
+FindNoFlowCells
+Hydrological Analysis
+hydrologicalanalysis
+Finds grid cells with no downslope neighbours
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#FindNoFlowCells
+QgsProcessingParameterRasterLayer|dem|Input File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

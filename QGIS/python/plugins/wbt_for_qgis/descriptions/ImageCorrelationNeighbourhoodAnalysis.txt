@@ -1,0 +1,12 @@
+ImageCorrelationNeighbourhoodAnalysis
+ImageCorrelationNeighbourhoodAnalysis
+Math and Stats Tools
+mathandstatstools
+Performs image correlation on two input images neighbourhood search windows
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ImageCorrelationNeighbourhoodAnalysis
+QgsProcessingParameterRasterLayer|input1|Image 1|None|False
+QgsProcessingParameterRasterLayer|input2|Image 2|None|False
+QgsProcessingParameterNumber|filter|Filter Size|QgsProcessingParameterNumber.Integer|11|True|None|None
+QgsProcessingParameterEnum|stat|Correlation Statistic Type|pearson;kendall;spearman|False|0|True
+QgsProcessingParameterRasterDestination|output1|Output Correlation File|None|False
+QgsProcessingParameterRasterDestination|output2|Output Significance File|None|False

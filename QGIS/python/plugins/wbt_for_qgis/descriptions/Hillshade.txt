@@ -1,0 +1,11 @@
+Hillshade
+Hillshade
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates a hillshade raster from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#Hillshade
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterNumber|azimuth|Azimuth (degrees)|QgsProcessingParameterNumber.Double|315.0|True|None|None
+QgsProcessingParameterNumber|altitude|Altitude (degrees)|QgsProcessingParameterNumber.Double|30.0|True|None|None
+QgsProcessingParameterNumber|zfactor|Z Conversion Factor|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

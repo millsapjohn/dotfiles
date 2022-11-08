@@ -1,0 +1,14 @@
+YieldFilter
+YieldFilter
+Precision Agriculture
+precisionagriculture
+Filters crop yield values of point data derived from combine harvester yield monitors
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/precision_agriculture.html#YieldFilter
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|yield_field|Yield Field Name|None|False|False
+QgsProcessingParameterString|pass_field|Pass Field Name|None|False|False
+QgsProcessingParameterNumber|width|Swath Width|QgsProcessingParameterNumber.Double|6.096|True|None|None
+QgsProcessingParameterNumber|z_score_threshold|Z-score Threshold Value|QgsProcessingParameterNumber.Double|2.5|True|None|None
+QgsProcessingParameterNumber|min_yield|Minimum Yield|QgsProcessingParameterNumber.Double|0.0|True|None|None
+QgsProcessingParameterNumber|max_yield|Maximum Yield|QgsProcessingParameterNumber.Double|99999.9|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Points|QgsProcessing.TypeVectorPoint|None|False

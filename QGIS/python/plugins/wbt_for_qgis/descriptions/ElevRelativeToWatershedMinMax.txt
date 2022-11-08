@@ -1,0 +1,9 @@
+ElevRelativeToWatershedMinMax
+ElevRelativeToWatershedMinMax
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the elevation of a location relative to the minimum and maximum elevations in a watershed
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#ElevRelativeToWatershedMinMax
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterRasterLayer|watersheds|Input Watersheds File|None|False
+QgsProcessingParameterRasterDestination|output|Output File|None|False

@@ -1,0 +1,8 @@
+LinesToPolygons
+LinesToPolygons
+Data Tools
+datatools
+Converts vector polylines to polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#LinesToPolygons
+QgsProcessingParameterFeatureSource|input|Input Line File|QgsProcessing.TypeVectorLine|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorPolygon|None|False

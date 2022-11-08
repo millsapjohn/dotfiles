@@ -1,0 +1,8 @@
+PolygonShortAxis
+PolygonShortAxis
+GIS Analysis
+gisanalysis
+This tool can be used to map the short axis of polygon features
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#PolygonShortAxis
+QgsProcessingParameterFeatureSource|input|Input Polygon File|QgsProcessing.TypeVectorPolygon|None|False
+QgsProcessingParameterVectorDestination|output|Output Polygon File|QgsProcessing.TypeVectorLine|None|False

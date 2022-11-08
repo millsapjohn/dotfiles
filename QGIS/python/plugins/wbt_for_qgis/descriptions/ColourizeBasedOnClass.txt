@@ -1,0 +1,12 @@
+ColourizeBasedOnClass
+ColourizeBasedOnClass
+LiDAR Tools
+lidartools
+Sets the RGB values of a LiDAR point cloud based on the point classification values
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ColourizeBasedOnClass
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|intensity_blending|Intensity Blending Amount (0-100%):|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterString|clr_str|Colour values:|None|False|True
+QgsProcessingParameterBoolean|use_unique_clrs_for_buildings|Use unique colours for each building?|False|True
+QgsProcessingParameterNumber|radius|Search Distance:|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|True

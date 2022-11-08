@@ -1,0 +1,10 @@
+PiecewiseContrastStretch
+PiecewiseContrastStretch
+Image Processing Tools - Image Enhancement
+imageprocessingtoolsimageenhancement
+Modify points within a LiDAR point cloud based on point properties
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/image_processing_tools_image_enhancement.html#PiecewiseContrastStretch
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterString|function|Piecewise Function Break-points:|None|False|False
+QgsProcessingParameterNumber|greytones|Number of Output Greytones:|QgsProcessingParameterNumber.Integer|1024|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster Image|None|False

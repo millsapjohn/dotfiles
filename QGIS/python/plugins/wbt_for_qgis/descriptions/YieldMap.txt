@@ -1,0 +1,11 @@
+YieldMap
+YieldMap
+Precision Agriculture
+precisionagriculture
+This tool can be used to create a segmented-vector polygon yield map from a set of harvester points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/precision_agriculture.html#YieldMap
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|pass_field_name|Pass Field Name|None|False|False
+QgsProcessingParameterNumber|width|Swath Width|QgsProcessingParameterNumber.Double|6.096|True|None|None
+QgsProcessingParameterNumber|max_change_in_heading|Max Change In Heading (degrees)|QgsProcessingParameterNumber.Double|25.0|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector Polygons|QgsProcessing.TypeVectorPolygon|None|False

@@ -1,0 +1,12 @@
+MaxElevDevSignature
+MaxElevDevSignature
+Geomorphometric Analysis
+geomorphometricanalysis
+Calculates the maximum elevation deviation over a range of spatial scales and for a set of points
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MaxElevDevSignature
+QgsProcessingParameterRasterLayer|dem|Input DEM File|None|False
+QgsProcessingParameterFeatureSource|points|Input Vector Points File|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterNumber|min_scale|Minimum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|max_scale|Maximum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|step|Step Size|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterFileDestination|output|Output HTML File|HTML files (*.html *.HTML)|None|False
